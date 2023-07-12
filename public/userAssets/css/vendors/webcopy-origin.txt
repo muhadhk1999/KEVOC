@@ -1,0 +1,2396 @@
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\ajax\libs\font-awesome\4.7.0\css\font-awesome.min.css
+Content Type: text/css
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\ajax\libs\font-awesome\4.7.0\fonts\fontawesome-webfont-1.eot
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?v=4.7.0
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\ajax\libs\font-awesome\4.7.0\fonts\fontawesome-webfont.eot
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.svg?v=4.7.0
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\ajax\libs\font-awesome\4.7.0\fonts\fontawesome-webfont.svg
+Content Type: image/svg+xml
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf?v=4.7.0
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\ajax\libs\font-awesome\4.7.0\fonts\fontawesome-webfont.ttf
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\ajax\libs\font-awesome\4.7.0\fonts\fontawesome-webfont.woff2
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff?v=4.7.0
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\ajax\libs\font-awesome\4.7.0\fonts\fontawesome-webfont.woff
+Content Type: application/octet-stream
+
+Uri: https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700;800;900&display=swap
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\css2-2
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\css2-4
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\css2-3
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\css2-5
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css?family=Poppins:300,400,600,700
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\css
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/jost/v14/92zPtBhPNqw79Ij1E865zBUv7mwjIgVG.ttf
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\s\jost\v14\92zPtBhPNqw79Ij1E865zBUv7mwjIgVG.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/jost/v14/92zPtBhPNqw79Ij1E865zBUv7mwjJQVG.ttf
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\s\jost\v14\92zPtBhPNqw79Ij1E865zBUv7mwjJQVG.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/jost/v14/92zPtBhPNqw79Ij1E865zBUv7mwKIgVG.ttf
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\s\jost\v14\92zPtBhPNqw79Ij1E865zBUv7mwKIgVG.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/jost/v14/92zPtBhPNqw79Ij1E865zBUv7mx9IgVG.ttf
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\s\jost\v14\92zPtBhPNqw79Ij1E865zBUv7mx9IgVG.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/jost/v14/92zPtBhPNqw79Ij1E865zBUv7mxEIgVG.ttf
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\s\jost\v14\92zPtBhPNqw79Ij1E865zBUv7mxEIgVG.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/jost/v14/92zPtBhPNqw79Ij1E865zBUv7myjJQVG.ttf
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\s\jost\v14\92zPtBhPNqw79Ij1E865zBUv7myjJQVG.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/jost/v14/92zPtBhPNqw79Ij1E865zBUv7myRJQVG.ttf
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\s\jost\v14\92zPtBhPNqw79Ij1E865zBUv7myRJQVG.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/jost/v14/92zPtBhPNqw79Ij1E865zBUv7mz9JQVG.ttf
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\s\jost\v14\92zPtBhPNqw79Ij1E865zBUv7mz9JQVG.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/leckerlione/v16/V8mCoQH8VCsNttEnxnGQ-1itLQ.ttf
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\s\leckerlione\v16\V8mCoQH8VCsNttEnxnGQ-1itLQ.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCs16Ew-.ttf
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\s\montserrat\v25\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCs16Ew-.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Ew-.ttf
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\s\montserrat\v25\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Ew-.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtZ6Ew-.ttf
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\s\montserrat\v25\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtZ6Ew-.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu170w-.ttf
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\s\montserrat\v25\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu170w-.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM70w-.ttf
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\s\montserrat\v25\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM70w-.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr70w-.ttf
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\s\montserrat\v25\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr70w-.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v7/IQHow_FEYlDC4Gzy_m8fcoWiMMZ7xLd792ULpGE4W_Y.woff2
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\s\montserrat\v7\IQHow_FEYlDC4Gzy_m8fcoWiMMZ7xLd792ULpGE4W_Y.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.gstatic.com/s/montserrat/v7/zhcz-_WihjSQC0oHJ9TCYPk_vArhqVIZ0nv9q090hN8.woff2
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\s\montserrat\v7\zhcz-_WihjSQC0oHJ9TCYPk_vArhqVIZ0nv9q090hN8.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7Z1xlEA.ttf
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\s\poppins\v20\pxiByp8kv8JHgFVrLCz7Z1xlEA.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDz8Z1xlEA.ttf
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\s\poppins\v20\pxiByp8kv8JHgFVrLDz8Z1xlEA.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z1xlEA.ttf
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\s\poppins\v20\pxiByp8kv8JHgFVrLEj6Z1xlEA.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfedw.ttf
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\s\poppins\v20\pxiEyp8kv8JHgFVrJJfedw.ttf
+Content Type: font/ttf
+
+Uri: https://themes.pixelstrap.com/oslo/
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\index.htm
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/assets/css/landing.css
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\css\landing.css
+Content Type: text/css
+
+Uri: https://themes.pixelstrap.com/oslo/assets/css/style.css
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\css\style.css
+Content Type: text/css
+
+Uri: https://themes.pixelstrap.com/oslo/assets/css/vendors/bootstrap.css
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\css\vendors\bootstrap.css
+Content Type: text/css
+
+Uri: https://themes.pixelstrap.com/oslo/assets/css/vendors/popup/popup.css
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\css\vendors\popup\popup.css
+Content Type: text/css
+
+Uri: https://themes.pixelstrap.com/oslo/assets/css/vendors/swiper-bundle.min.css
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\css\vendors\swiper-bundle.min.css
+Content Type: text/css
+
+Uri: https://themes.pixelstrap.com/oslo/assets/css/vendors/wow-animate.css
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\css\vendors\wow-animate.css
+Content Type: text/css
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/png/1.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\png\1.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/png/2.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\png\2.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/png/3.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\png\3.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/png/4.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\png\4.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/png/5.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\png\5.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/png/bank1.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\png\bank1.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/png/bank2.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\png\bank2.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/png/bank3.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\png\bank3.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/png/discover-w.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\png\discover-w.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/png/fb.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\png\fb.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/png/google.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\png\google.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/png/seller.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\png\seller.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/svg/1.svg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\svg\1.svg
+Content Type: image/svg+xml
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/svg/2.svg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\svg\2.svg
+Content Type: image/svg+xml
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/svg/3.svg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\svg\3.svg
+Content Type: image/svg+xml
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/svg/4.svg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\svg\4.svg
+Content Type: image/svg+xml
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/svg/5.svg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\svg\5.svg
+Content Type: image/svg+xml
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/svg/6.svg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\svg\6.svg
+Content Type: image/svg+xml
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/svg/active.svg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\svg\active.svg
+Content Type: image/svg+xml
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/svg/box.svg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\svg\box.svg
+Content Type: image/svg+xml
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/svg/chevron-right.svg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\svg\chevron-right.svg
+Content Type: image/svg+xml
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/svg/coat.svg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\svg\coat.svg
+Content Type: image/svg+xml
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/svg/dress.svg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\svg\dress.svg
+Content Type: image/svg+xml
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/svg/eye-1.svg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\svg\eye-1.svg
+Content Type: image/svg+xml
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/svg/full.svg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\svg\full.svg
+Content Type: image/svg+xml
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/svg/jaket.svg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\svg\jaket.svg
+Content Type: image/svg+xml
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/svg/jeans.svg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\svg\jeans.svg
+Content Type: image/svg+xml
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/svg/menu.svg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\svg\menu.svg
+Content Type: image/svg+xml
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/svg/menu3.svg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\svg\menu3.svg
+Content Type: image/svg+xml
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/svg/minus.svg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\svg\minus.svg
+Content Type: image/svg+xml
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/svg/phone-book.svg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\svg\phone-book.svg
+Content Type: image/svg+xml
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/svg/plus.svg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\svg\plus.svg
+Content Type: image/svg+xml
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/svg/pointer.svg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\svg\pointer.svg
+Content Type: image/svg+xml
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/svg/skirt.svg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\svg\skirt.svg
+Content Type: image/svg+xml
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/svg/social/fb.svg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\svg\social\fb.svg
+Content Type: image/svg+xml
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/svg/social/inta.svg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\svg\social\inta.svg
+Content Type: image/svg+xml
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/svg/social/pint.svg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\svg\social\pint.svg
+Content Type: image/svg+xml
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/svg/social/tw.svg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\svg\social\tw.svg
+Content Type: image/svg+xml
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/svg/theme/1.svg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\svg\theme\1.svg
+Content Type: image/svg+xml
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/svg/theme/10.svg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\svg\theme\10.svg
+Content Type: image/svg+xml
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/svg/theme/11.svg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\svg\theme\11.svg
+Content Type: image/svg+xml
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/svg/theme/12.svg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\svg\theme\12.svg
+Content Type: image/svg+xml
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/svg/theme/13.svg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\svg\theme\13.svg
+Content Type: image/svg+xml
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/svg/theme/14.svg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\svg\theme\14.svg
+Content Type: image/svg+xml
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/svg/theme/2.svg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\svg\theme\2.svg
+Content Type: image/svg+xml
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/svg/theme/3.svg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\svg\theme\3.svg
+Content Type: image/svg+xml
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/svg/theme/4.svg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\svg\theme\4.svg
+Content Type: image/svg+xml
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/svg/theme/5.svg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\svg\theme\5.svg
+Content Type: image/svg+xml
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/svg/theme/6.svg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\svg\theme\6.svg
+Content Type: image/svg+xml
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/svg/theme/7.svg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\svg\theme\7.svg
+Content Type: image/svg+xml
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/svg/theme/8.svg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\svg\theme\8.svg
+Content Type: image/svg+xml
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/svg/theme/9.svg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\svg\theme\9.svg
+Content Type: image/svg+xml
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/svg/tick.svg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\svg\tick.svg
+Content Type: image/svg+xml
+
+Uri: https://themes.pixelstrap.com/oslo/assets/icons/svg/zoom.svg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\icons\svg\zoom.svg
+Content Type: image/svg+xml
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/about-us/1.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\about-us\1.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/avatar/avatar.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\avatar\avatar.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/avatar/avatar2.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\avatar\avatar2.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/avatar/avatar3.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\avatar\avatar3.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/avatar/avatar4.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\avatar\avatar4.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/avatar/avatar5.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\avatar\avatar5.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/avatar/avatar6.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\avatar\avatar6.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/bag/banner/banner1.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\bag\banner\banner1.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/bag/banner/bg-footer-l.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\bag\banner\bg-footer-l.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/bag/banner/bg-footer-r.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\bag\banner\bg-footer-r.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/bag/banner/sub-banner.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\bag\banner\sub-banner.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/bag/brand-welove/2.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\bag\brand-welove\2.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/bag/brand/brand1.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\bag\brand\brand1.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/bag/brand/brand2.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\bag\brand\brand2.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/bag/brand/brand3.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\bag\brand\brand3.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/bag/brand/brand4.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\bag\brand\brand4.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/bag/brand/brand5.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\bag\brand\brand5.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/bag/brand/brand6.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\bag\brand\brand6.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/bag/category/1.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\bag\category\1.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/bag/category/2.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\bag\category\2.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/bag/category/3.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\bag\category\3.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/bag/category/4.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\bag\category\4.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/bag/category/5.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\bag\category\5.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/bag/category/6.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\bag\category\6.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/bag/instagram/1.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\bag\instagram\1.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/bag/instagram/2.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\bag\instagram\2.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/bag/instagram/3.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\bag\instagram\3.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/bag/instagram/4.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\bag\instagram\4.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/bag/instagram/5.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\bag\instagram\5.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/bag/product/1.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\bag\product\1.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/bag/product/2.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\bag\product\2.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/bag/product/3-1.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\bag\product\3-1.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/bag/product/3-2.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\bag\product\3-2.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/bag/product/3-3.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\bag\product\3-3.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/bag/product/3-4.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\bag\product\3-4.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/bag/product/3.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\bag\product\3.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/bag/product/4.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\bag\product\4.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/bag/product/5.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\bag\product\5.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/bag/product/6.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\bag\product\6.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/bag/product/7.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\bag\product\7.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/bag/product/8-1.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\bag\product\8-1.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/bag/product/8-2.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\bag\product\8-2.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/bag/product/8-3.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\bag\product\8-3.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/bag/product/8.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\bag\product\8.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/bag/product/png/1.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\bag\product\png\1.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/bag/product/png/2.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\bag\product\png\2.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/bag/product/png/3.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\bag\product\png\3.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/bag/product/png/4.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\bag\product\png\4.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/bag/product/png/5.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\bag\product\png\5.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/bag/product/png/6.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\bag\product\png\6.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/bag/slide/banner1-1.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\bag\slide\banner1-1.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/bag/slide/banner1-2.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\bag\slide\banner1-2.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/blog/detail/1.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\blog\detail\1.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/blog/grid/1.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\blog\grid\1.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/blog/grid/2.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\blog\grid\2.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/blog/grid/3.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\blog\grid\3.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/blog/grid/4.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\blog\grid\4.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/blog/grid/5.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\blog\grid\5.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/blog/grid/6.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\blog\grid\6.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/blog/list/1.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\blog\list\1.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/blog/list/2.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\blog\list\2.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/blog/list/3.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\blog\list\3.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/blog/list/4.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\blog\list\4.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/blog/list/5.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\blog\list\5.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/blog/list/6.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\blog\list\6.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/demo-img/demo1.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\demo-img\demo1.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/demo-img/demo2.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\demo-img\demo2.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/demo-img/demo3.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\demo-img\demo3.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/demo-img/demo4.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\demo-img\demo4.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/demo-img/demo5.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\demo-img\demo5.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/demo-img/demo6.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\demo-img\demo6.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/demo-img/menu-bg.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\demo-img\menu-bg.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/fashion/banner/banner1.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\fashion\banner\banner1.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/fashion/banner/banner2.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\fashion\banner\banner2.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/fashion/banner/banner3.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\fashion\banner\banner3.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/fashion/banner/bg-footer-l.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\fashion\banner\bg-footer-l.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/fashion/banner/bg-footer-r.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\fashion\banner\bg-footer-r.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/fashion/banner/sizechart.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\fashion\banner\sizechart.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/fashion/category/1.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\fashion\category\1.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/fashion/category/2.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\fashion\category\2.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/fashion/category/3.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\fashion\category\3.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/fashion/category/4.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\fashion\category\4.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/fashion/category/5.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\fashion\category\5.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/fashion/category/6.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\fashion\category\6.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/fashion/instagram/1.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\fashion\instagram\1.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/fashion/instagram/2.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\fashion\instagram\2.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/fashion/instagram/3.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\fashion\instagram\3.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/fashion/instagram/4.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\fashion\instagram\4.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/fashion/instagram/5.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\fashion\instagram\5.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/fashion/product/front/1.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\fashion\product\front\1.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/fashion/product/front/10.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\fashion\product\front\10.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/fashion/product/front/13.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\fashion\product\front\13.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/fashion/product/front/2.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\fashion\product\front\2.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/fashion/product/front/3.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\fashion\product\front\3.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/fashion/product/front/4.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\fashion\product\front\4.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/fashion/product/front/5.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\fashion\product\front\5.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/fashion/product/front/6.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\fashion\product\front\6.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/fashion/product/front/7-1.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\fashion\product\front\7-1.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/fashion/product/front/7-2.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\fashion\product\front\7-2.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/fashion/product/front/7-3.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\fashion\product\front\7-3.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/fashion/product/front/7-4.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\fashion\product\front\7-4.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/fashion/product/front/7-5.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\fashion\product\front\7-5.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/fashion/product/front/7.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\fashion\product\front\7.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/fashion/product/front/8.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\fashion\product\front\8.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/fashion/product/front/9.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\fashion\product\front\9.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/fashion/product/new-arrived/1.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\fashion\product\new-arrived\1.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/fashion/product/new-arrived/2.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\fashion\product\new-arrived\2.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/fashion/product/new-arrived/3.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\fashion\product\new-arrived\3.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/fashion/product/new-arrived/4.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\fashion\product\new-arrived\4.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/fashion/product/new-arrived/5.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\fashion\product\new-arrived\5.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/fashion/slider/banner1-1.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\fashion\slider\banner1-1.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/fashion/slider/banner1-2.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\fashion\slider\banner1-2.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/fashion/slider/banner1-c1.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\fashion\slider\banner1-c1.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/fashion/slider/banner1-c2.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\fashion\slider\banner1-c2.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/favicon/favicon.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\favicon\favicon.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/furniture/article/1.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\furniture\article\1.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/furniture/article/2.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\furniture\article\2.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/furniture/banner/banner.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\furniture\banner\banner.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/furniture/banner/banner2.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\furniture\banner\banner2.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/furniture/banner/banner3.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\furniture\banner\banner3.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/furniture/banner/banner4.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\furniture\banner\banner4.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/furniture/banner/banner5.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\furniture\banner\banner5.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/furniture/banner/bg-catagories.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\furniture\banner\bg-catagories.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/furniture/banner/sub-banner.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\furniture\banner\sub-banner.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/furniture/banner/sub-banner2.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\furniture\banner\sub-banner2.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/furniture/gallery/1.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\furniture\gallery\1.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/furniture/gallery/2.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\furniture\gallery\2.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/furniture/instagram/1.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\furniture\instagram\1.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/furniture/instagram/2.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\furniture\instagram\2.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/furniture/instagram/3.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\furniture\instagram\3.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/furniture/instagram/4.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\furniture\instagram\4.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/furniture/instagram/5.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\furniture\instagram\5.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/furniture/product/jpg/1.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\furniture\product\jpg\1.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/furniture/product/jpg/10.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\furniture\product\jpg\10.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/furniture/product/jpg/11.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\furniture\product\jpg\11.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/furniture/product/jpg/12.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\furniture\product\jpg\12.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/furniture/product/jpg/13.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\furniture\product\jpg\13.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/furniture/product/jpg/14.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\furniture\product\jpg\14.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/furniture/product/jpg/15.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\furniture\product\jpg\15.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/furniture/product/jpg/16-1.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\furniture\product\jpg\16-1.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/furniture/product/jpg/16-2.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\furniture\product\jpg\16-2.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/furniture/product/jpg/16-3.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\furniture\product\jpg\16-3.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/furniture/product/jpg/16.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\furniture\product\jpg\16.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/furniture/product/jpg/2.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\furniture\product\jpg\2.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/furniture/product/jpg/3.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\furniture\product\jpg\3.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/furniture/product/jpg/4.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\furniture\product\jpg\4.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/furniture/product/jpg/5.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\furniture\product\jpg\5.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/furniture/product/jpg/6.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\furniture\product\jpg\6.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/furniture/product/jpg/7.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\furniture\product\jpg\7.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/furniture/product/jpg/8.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\furniture\product\jpg\8.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/furniture/product/jpg/9.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\furniture\product\jpg\9.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/furniture/special-product/1.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\furniture\special-product\1.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/furniture/special-product/2.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\furniture\special-product\2.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/furniture/special-product/3.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\furniture\special-product\3.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/furniture/special-product/4.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\furniture\special-product\4.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/grocery/banner/banner-bg.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\grocery\banner\banner-bg.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/grocery/banner/banner.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\grocery\banner\banner.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/grocery/banner/banner2.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\grocery\banner\banner2.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/grocery/banner/banner3.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\grocery\banner\banner3.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/grocery/banner/bg-2.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\grocery\banner\bg-2.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/grocery/banner/bg-4.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\grocery\banner\bg-4.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/grocery/banner/bg-footer-l.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\grocery\banner\bg-footer-l.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/grocery/banner/bg-footer-r.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\grocery\banner\bg-footer-r.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/grocery/banner/bg.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\grocery\banner\bg.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/grocery/banner/sub-1.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\grocery\banner\sub-1.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/grocery/banner/sub-2.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\grocery\banner\sub-2.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/grocery/banner/sub-3.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\grocery\banner\sub-3.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/grocery/banner/sub-banner.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\grocery\banner\sub-banner.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/grocery/instagram/1.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\grocery\instagram\1.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/grocery/instagram/2.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\grocery\instagram\2.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/grocery/instagram/3.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\grocery\instagram\3.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/grocery/instagram/4.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\grocery\instagram\4.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/grocery/instagram/5.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\grocery\instagram\5.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/grocery/product/best-seller/1.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\grocery\product\best-seller\1.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/grocery/product/best-seller/2.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\grocery\product\best-seller\2.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/grocery/product/best-seller/3.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\grocery\product\best-seller\3.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/grocery/product/best-seller/4.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\grocery\product\best-seller\4.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/grocery/product/best-seller/5.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\grocery\product\best-seller\5.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/grocery/product/best-seller/6.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\grocery\product\best-seller\6.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/grocery/product/best-seller/7.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\grocery\product\best-seller\7.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/grocery/product/best-seller/8.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\grocery\product\best-seller\8.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/grocery/product/fresh/1.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\grocery\product\fresh\1.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/grocery/product/fresh/2.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\grocery\product\fresh\2.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/grocery/product/fresh/3.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\grocery\product\fresh\3.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/grocery/product/fresh/4.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\grocery\product\fresh\4.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/grocery/product/fresh/5.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\grocery\product\fresh\5.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/grocery/product/fresh/6.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\grocery\product\fresh\6.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/grocery/product/jpg/1-2.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\grocery\product\jpg\1-2.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/grocery/product/jpg/1-3.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\grocery\product\jpg\1-3.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/grocery/product/jpg/1-4.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\grocery\product\jpg\1-4.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/grocery/product/jpg/1.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\grocery\product\jpg\1.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/grocery/product/new/1.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\grocery\product\new\1.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/grocery/product/new/2.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\grocery\product\new\2.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/grocery/product/new/3.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\grocery\product\new\3.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/grocery/product/new/4.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\grocery\product\new\4.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/grocery/product/png/1.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\grocery\product\png\1.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/grocery/product/png/2.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\grocery\product\png\2.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/grocery/product/png/3.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\grocery\product\png\3.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/grocery/product/png/4.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\grocery\product\png\4.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/grocery/product/png/5.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\grocery\product\png\5.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/inner-page/404.svg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\inner-page\404.svg
+Content Type: image/svg+xml
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/inner-page/banner-p.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\inner-page\banner-p.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/inner-page/banner-p2.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\inner-page\banner-p2.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/inner-page/banner.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\inner-page\banner.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/inner-page/banner2.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\inner-page\banner2.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/landing-images/bg-paper.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\landing-images\bg-paper.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/landing-images/fetures/1.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\landing-images\fetures\1.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/landing-images/fetures/2.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\landing-images\fetures\2.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/landing-images/fetures/3.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\landing-images\fetures\3.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/landing-images/fetures/4.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\landing-images\fetures\4.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/landing-images/fetures/5.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\landing-images\fetures\5.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/landing-images/fetures/6.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\landing-images\fetures\6.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/landing-images/home/bottom-left.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\landing-images\home\bottom-left.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/landing-images/home/bottom-right.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\landing-images\home\bottom-right.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/landing-images/home/circle.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\landing-images\home\circle.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/landing-images/home/dotes.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\landing-images\home\dotes.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/landing-images/home/dotes2.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\landing-images\home\dotes2.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/landing-images/home/leaf-shadow.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\landing-images\home\leaf-shadow.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/landing-images/home/leaf.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\landing-images\home\leaf.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/landing-images/home/pioint.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\landing-images\home\pioint.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/landing-images/home/round.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\landing-images\home\round.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/landing-images/home/top-left.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\landing-images\home\top-left.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/landing-images/home/top-right.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\landing-images\home\top-right.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/landing-images/icon/1.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\landing-images\icon\1.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/landing-images/icon/14.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\landing-images\icon\14.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/landing-images/icon/15.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\landing-images\icon\15.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/landing-images/icon/19.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\landing-images\icon\19.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/landing-images/icon/2.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\landing-images\icon\2.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/landing-images/icon/21.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\landing-images\icon\21.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/landing-images/icon/24.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\landing-images\icon\24.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/landing-images/icon/25.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\landing-images\icon\25.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/landing-images/icon/3.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\landing-images\icon\3.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/landing-images/icon/4.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\landing-images\icon\4.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/landing-images/icon/5.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\landing-images\icon\5.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/landing-images/icon/6.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\landing-images\icon\6.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/landing-images/pages/demo/1.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\landing-images\pages\demo\1.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/landing-images/pages/demo/2.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\landing-images\pages\demo\2.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/landing-images/pages/demo/3.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\landing-images\pages\demo\3.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/landing-images/pages/demo/4.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\landing-images\pages\demo\4.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/landing-images/pages/demo/5.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\landing-images\pages\demo\5.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/landing-images/pages/demo/6.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\landing-images\pages\demo\6.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/landing-images/pages/inner/inner-banner.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\landing-images\pages\inner\inner-banner.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/landing-images/pages/product/1.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\landing-images\pages\product\1.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/landing-images/pages/product/2.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\landing-images\pages\product\2.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/landing-images/pages/product/3.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\landing-images\pages\product\3.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/landing-images/pages/product/4.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\landing-images\pages\product\4.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/landing-images/pages/product/5.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\landing-images\pages\product\5.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/landing-images/pages/product/6.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\landing-images\pages\product\6.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/landing-images/pages/shop/1.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\landing-images\pages\shop\1.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/landing-images/pages/shop/2.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\landing-images\pages\shop\2.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/landing-images/pages/shop/3.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\landing-images\pages\shop\3.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/landing-images/pages/shop/4.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\landing-images\pages\shop\4.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/landing-images/pages/shop/5.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\landing-images\pages\shop\5.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/landing-images/pages/shop/6.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\landing-images\pages\shop\6.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/landing-images/pages/shop/7.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\landing-images\pages\shop\7.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/landing-images/pages/shop/8.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\landing-images\pages\shop\8.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/logos/logo-2-d.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\logos\logo-2-d.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/logos/logo-2.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\logos\logo-2.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/logos/logo-3-w.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\logos\logo-3-w.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/logos/logo-3.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\logos\logo-3.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/logos/logo-4-w.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\logos\logo-4-w.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/logos/logo-4.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\logos\logo-4.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/logos/logo-5.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\logos\logo-5.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/logos/logo-6-w.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\logos\logo-6-w.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/logos/logo-6.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\logos\logo-6.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/logos/logo-w.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\logos\logo-w.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/logos/logo.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\logos\logo.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/masonry/1.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\masonry\1.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/masonry/2.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\masonry\2.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/masonry/3.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\masonry\3.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/masonry/4.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\masonry\4.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/masonry/5.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\masonry\5.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/masonry/6.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\masonry\6.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/masonry/7.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\masonry\7.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/masonry/8.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\masonry\8.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/masonry/bag/1.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\masonry\bag\1.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/masonry/bag/2.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\masonry\bag\2.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/masonry/bag/3.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\masonry\bag\3.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/masonry/bag/4.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\masonry\bag\4.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/masonry/bag/5.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\masonry\bag\5.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/masonry/bag/6.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\masonry\bag\6.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/masonry/bag/7.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\masonry\bag\7.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/masonry/bag/8.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\masonry\bag\8.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/masonry/other/1.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\masonry\other\1.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/masonry/other/2.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\masonry\other\2.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/masonry/other/3.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\masonry\other\3.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/shoe/banner/banner.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\shoe\banner\banner.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/shoe/banner/banner1-1.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\shoe\banner\banner1-1.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/shoe/banner/service-bg.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\shoe\banner\service-bg.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/shoe/banner/shoe.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\shoe\banner\shoe.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/shoe/banner/shoe3.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\shoe\banner\shoe3.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/shoe/banner/shoes2.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\shoe\banner\shoes2.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/shoe/banner/sub-banner.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\shoe\banner\sub-banner.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/shoe/banner/sub-banner4.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\shoe\banner\sub-banner4.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/shoe/instagram/1.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\shoe\instagram\1.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/shoe/instagram/2.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\shoe\instagram\2.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/shoe/instagram/3.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\shoe\instagram\3.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/shoe/instagram/4.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\shoe\instagram\4.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/shoe/instagram/5.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\shoe\instagram\5.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/shoe/offer/offer-bg1.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\shoe\offer\offer-bg1.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/shoe/offer/offer-bg2.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\shoe\offer\offer-bg2.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/shoe/product/1.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\shoe\product\1.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/shoe/product/10.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\shoe\product\10.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/shoe/product/11.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\shoe\product\11.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/shoe/product/12.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\shoe\product\12.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/shoe/product/13.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\shoe\product\13.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/shoe/product/14.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\shoe\product\14.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/shoe/product/15.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\shoe\product\15.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/shoe/product/16.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\shoe\product\16.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/shoe/product/2.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\shoe\product\2.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/shoe/product/3.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\shoe\product\3.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/shoe/product/4.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\shoe\product\4.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/shoe/product/5.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\shoe\product\5.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/shoe/product/6.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\shoe\product\6.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/shoe/product/7.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\shoe\product\7.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/shoe/product/8.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\shoe\product\8.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/shoe/product/9.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\shoe\product\9.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/shoe/product/png/1.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\shoe\product\png\1.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/shoe/product/png/2.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\shoe\product\png\2.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/shoe/product/png/3.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\shoe\product\png\3.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/shoe/product/png/4.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\shoe\product\png\4.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/shoe/product/png/5.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\shoe\product\png\5.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/shoe/product/png/6.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\shoe\product\png\6.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/shoe/seller/1.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\shoe\seller\1.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/shoe/seller/2.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\shoe\seller\2.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/shoe/seller/3.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\shoe\seller\3.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/shoe/seller/4.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\shoe\seller\4.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/team/1.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\team\1.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/team/2.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\team\2.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/team/3.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\team\3.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/team/4.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\team\4.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/banner/banner1-1.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\banner\banner1-1.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/banner/banner1-2.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\banner\banner1-2.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/banner/banner1.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\banner\banner1.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/banner/bg-img.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\banner\bg-img.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/banner/card1.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\banner\card1.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/banner/card2.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\banner\card2.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/banner/card3.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\banner\card3.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/banner/service-bg.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\banner\service-bg.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/banner/sub-banner.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\banner\sub-banner.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/banner/sub-banner2.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\banner\sub-banner2.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/banner/sub-banner3-1.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\banner\sub-banner3-1.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/banner/sub-banner3.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\banner\sub-banner3.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/best-seller/1.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\best-seller\1.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/best-seller/2.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\best-seller\2.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/best-seller/3.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\best-seller\3.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/best-seller/4.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\best-seller\4.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/best-seller/5.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\best-seller\5.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/best-seller/6.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\best-seller\6.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/best-seller/7.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\best-seller\7.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/best-seller/8.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\best-seller\8.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/brand/1.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\brand\1.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/brand/2.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\brand\2.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/brand/3.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\brand\3.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/brand/4.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\brand\4.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/brand/5.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\brand\5.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/brand/6.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\brand\6.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/brand/bg-brand.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\brand\bg-brand.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/instagram/1.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\instagram\1.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/instagram/2.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\instagram\2.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/instagram/3.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\instagram\3.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/instagram/4.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\instagram\4.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/instagram/5.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\instagram\5.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/offer/1.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\offer\1.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/offer/2.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\offer\2.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/offer/3.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\offer\3.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/offer/4.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\offer\4.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/product/1.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\product\1.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/product/10.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\product\10.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/product/11.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\product\11.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/product/12.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\product\12.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/product/13.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\product\13.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/product/14.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\product\14.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/product/2.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\product\2.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/product/3.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\product\3.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/product/4.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\product\4.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/product/5.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\product\5.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/product/6.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\product\6.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/product/7.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\product\7.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/product/8.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\product\8.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/product/9.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\product\9.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/product/jpg/16-1.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\product\jpg\16-1.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/product/jpg/16-2.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\product\jpg\16-2.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/product/jpg/16-3.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\product\jpg\16-3.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/product/jpg/16.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\product\jpg\16.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/special-product/1.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\special-product\1.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/special-product/2.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\special-product\2.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/special-product/3.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\special-product\3.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/special-product/4.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\special-product\4.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/special-product/5.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\special-product\5.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/images/watch/special-product/6.jpg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\images\watch\special-product\6.jpg
+Content Type: image/jpeg
+
+Uri: https://themes.pixelstrap.com/oslo/assets/js/active-class.js
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\js\active-class.js
+Content Type: application/javascript
+
+Uri: https://themes.pixelstrap.com/oslo/assets/js/bootstrap/bootstrap.bundle.min.js
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\js\bootstrap\bootstrap.bundle.min.js
+Content Type: application/javascript
+
+Uri: https://themes.pixelstrap.com/oslo/assets/js/demo-search3.js
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\js\demo-search3.js
+Content Type: application/javascript
+
+Uri: https://themes.pixelstrap.com/oslo/assets/js/feather/feather.min.js
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\js\feather\feather.min.js
+Content Type: application/javascript
+
+Uri: https://themes.pixelstrap.com/oslo/assets/js/grid-style.js
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\js\grid-style.js
+Content Type: application/javascript
+
+Uri: https://themes.pixelstrap.com/oslo/assets/js/imagesloaded.pkgd.min.js
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\js\imagesloaded.pkgd.min.js
+Content Type: application/javascript
+
+Uri: https://themes.pixelstrap.com/oslo/assets/js/isotop.js
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\js\isotop.js
+Content Type: application/javascript
+
+Uri: https://themes.pixelstrap.com/oslo/assets/js/landing-script.js
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\js\landing-script.js
+Content Type: application/javascript
+
+Uri: https://themes.pixelstrap.com/oslo/assets/js/masonry.pkgd.min.js
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\js\masonry.pkgd.min.js
+Content Type: application/javascript
+
+Uri: https://themes.pixelstrap.com/oslo/assets/js/material-photo-custom.js
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\js\material-photo-custom.js
+Content Type: application/javascript
+
+Uri: https://themes.pixelstrap.com/oslo/assets/js/material-photo-gallery.min.js
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\js\material-photo-gallery.min.js
+Content Type: application/javascript
+
+Uri: https://themes.pixelstrap.com/oslo/assets/js/otp.js
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\js\otp.js
+Content Type: application/javascript
+
+Uri: https://themes.pixelstrap.com/oslo/assets/js/password-showhide.js
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\js\password-showhide.js
+Content Type: application/javascript
+
+Uri: https://themes.pixelstrap.com/oslo/assets/js/range-slider.js
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\js\range-slider.js
+Content Type: application/javascript
+
+Uri: https://themes.pixelstrap.com/oslo/assets/js/script.js
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\js\script.js
+Content Type: application/javascript
+
+Uri: https://themes.pixelstrap.com/oslo/assets/js/sticky-header.js
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\js\sticky-header.js
+Content Type: application/javascript
+
+Uri: https://themes.pixelstrap.com/oslo/assets/js/swiper-slider/swiper-bundle.min.js
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\js\swiper-slider\swiper-bundle.min.js
+Content Type: application/javascript
+
+Uri: https://themes.pixelstrap.com/oslo/assets/js/swiper-slider/swiper-custom.min.js
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\js\swiper-slider\swiper-custom.min.js
+Content Type: application/javascript
+
+Uri: https://themes.pixelstrap.com/oslo/assets/js/theme-setting.js
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\js\theme-setting.js
+Content Type: application/javascript
+
+Uri: https://themes.pixelstrap.com/oslo/assets/js/timer.js
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\js\timer.js
+Content Type: application/javascript
+
+Uri: https://themes.pixelstrap.com/oslo/assets/js/user-dashboard-tab.js
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\js\user-dashboard-tab.js
+Content Type: application/javascript
+
+Uri: https://themes.pixelstrap.com/oslo/assets/js/wow-custom.js
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\js\wow-custom.js
+Content Type: application/javascript
+
+Uri: https://themes.pixelstrap.com/oslo/assets/js/wow.js
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\js\wow.js
+Content Type: application/javascript
+
+Uri: https://themes.pixelstrap.com/oslo/assets/png/circle.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\png\circle.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/png/cookie.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\png\cookie.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/png/group-f.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\png\group-f.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/png/Leaf1.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\png\Leaf1.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/png/tomato.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\png\tomato.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/png/tomato1.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\png\tomato1.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/assets/svg/1.svg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\svg\1.svg
+Content Type: image/svg+xml
+
+Uri: https://themes.pixelstrap.com/oslo/assets/svg/arrow-dash2.svg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\svg\arrow-dash2.svg
+Content Type: image/svg+xml
+
+Uri: https://themes.pixelstrap.com/oslo/assets/svg/check.svg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\svg\check.svg
+Content Type: image/svg+xml
+
+Uri: https://themes.pixelstrap.com/oslo/assets/svg/leaf.svg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\svg\leaf.svg
+Content Type: image/svg+xml
+
+Uri: https://themes.pixelstrap.com/oslo/assets/svg/leaf2.svg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\svg\leaf2.svg
+Content Type: image/svg+xml
+
+Uri: https://themes.pixelstrap.com/oslo/assets/svg/leaf3.svg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\svg\leaf3.svg
+Content Type: image/svg+xml
+
+Uri: https://themes.pixelstrap.com/oslo/assets/svg/order-success.svg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\svg\order-success.svg
+Content Type: image/svg+xml
+
+Uri: https://themes.pixelstrap.com/oslo/assets/svg/shape.svg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\svg\shape.svg
+Content Type: image/svg+xml
+
+Uri: https://themes.pixelstrap.com/oslo/assets/video/clothing.mp4
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\video\clothing.mp4
+Content Type: video/mp4
+
+Uri: https://themes.pixelstrap.com/oslo/assets/video/clothing.ogg
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\assets\video\clothing.ogg
+Content Type: audio/ogg
+
+Uri: https://themes.pixelstrap.com/oslo/documentation/assets/css/documenter_style.css
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\documentation\assets\css\documenter_style.css
+Content Type: text/css
+
+Uri: https://themes.pixelstrap.com/oslo/documentation/assets/css/img/info.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\documentation\assets\css\img\info.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/documentation/assets/css/img/warning.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\documentation\assets\css\img\warning.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/documentation/assets/css/jstree.css
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\documentation\assets\css\jstree.css
+Content Type: text/css
+
+Uri: https://themes.pixelstrap.com/oslo/documentation/assets/images/32px.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\documentation\assets\images\32px.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/documentation/assets/images/favicon.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\documentation\assets\images\favicon.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/documentation/assets/images/logo.png
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\documentation\assets\images\logo.png
+Content Type: image/png
+
+Uri: https://themes.pixelstrap.com/oslo/documentation/assets/js/feather.min.js
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\documentation\assets\js\feather.min.js
+Content Type: application/javascript
+
+Uri: https://themes.pixelstrap.com/oslo/documentation/assets/js/jquery-3.3.1.min.js
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\documentation\assets\js\jquery-3.3.1.min.js
+Content Type: application/javascript
+
+Uri: https://themes.pixelstrap.com/oslo/documentation/assets/js/jquery.scrollTo.js
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\documentation\assets\js\jquery.scrollTo.js
+Content Type: application/javascript
+
+Uri: https://themes.pixelstrap.com/oslo/documentation/assets/js/jstree.js
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\documentation\assets\js\jstree.js
+Content Type: application/javascript
+
+Uri: https://themes.pixelstrap.com/oslo/documentation/assets/js/script.js
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\documentation\assets\js\script.js
+Content Type: application/javascript
+
+Uri: https://themes.pixelstrap.com/oslo/documentation/index.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\documentation\index.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/404.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\404.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/about-us.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\about-us.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/address.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\address.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/banner-element.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\banner-element.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/blog-detail.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\blog-detail.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/blog-grid.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\blog-grid.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/blog-list.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\blog-list.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/brand-element.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\brand-element.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/button-element.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\button-element.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/cart.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\cart.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/categories-element.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\categories-element.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/collection-banner-element.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\collection-banner-element.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/coming-soon.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\coming-soon.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/compare.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\compare.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/contact-us.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\contact-us.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/faqs.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\faqs.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/forgot-password.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\forgot-password.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/home-element.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\home-element.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/index-2.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\index-2.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/index-3.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\index-3.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/index-4.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\index-4.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/index-5.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\index-5.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/index-6.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\index-6.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/index.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\index.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/instagram-element.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\instagram-element.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/login.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\login.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/manifest.json
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\manifest.json
+Content Type: application/json
+
+Uri: https://themes.pixelstrap.com/oslo/html/offer-banner-element.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\offer-banner-element.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/order-success.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\order-success.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/otp.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\otp.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/payment.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\payment.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/portfolio-2-grid-masonry.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\portfolio-2-grid-masonry.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/portfolio-2-grid.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\portfolio-2-grid.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/portfolio-3-grid-masonry.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\portfolio-3-grid-masonry.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/portfolio-3-grid.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\portfolio-3-grid.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/portfolio-4-grid-masonry.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\portfolio-4-grid-masonry.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/portfolio-4-grid.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\portfolio-4-grid.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/portfolio-no-space-masonry.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\portfolio-no-space-masonry.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/product-card-element.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\product-card-element.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/product-four-image.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\product-four-image.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/product-slider.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\product-slider.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/product-sticky.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\product-sticky.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/product-three-column.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\product-three-column.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/product-video-img.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\product-video-img.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/product.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\product.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/register.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\register.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/reset-password.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\reset-password.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/search.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\search.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/seller-element.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\seller-element.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/service-element.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\service-element.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/shop-categories.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\shop-categories.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/shop-filter.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\shop-filter.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/shop-left-sidebar.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\shop-left-sidebar.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/shop-list.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\shop-list.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/shop-masanory.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\shop-masanory.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/shop-no-sidebar.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\shop-no-sidebar.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/shop-right-sidebar.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\shop-right-sidebar.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/shop-top-filter.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\shop-top-filter.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/tabs-element.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\tabs-element.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/title-element.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\title-element.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/user-dashboard.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\user-dashboard.html
+Content Type: text/html
+
+Uri: https://themes.pixelstrap.com/oslo/html/wishlist.html
+File Name: C:\Downloaded Web Sites\themes.pixelstrap.com\oslo\html\wishlist.html
+Content Type: text/html
+

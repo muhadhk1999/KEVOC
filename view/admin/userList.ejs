@@ -1,0 +1,105 @@
+<%- include('../layout/adminLayouts/header.ejs') %>
+<%- include('../layout/adminLayouts/sideBar.ejs') %>
+
+
+            <div class="page-body">
+                <!-- Container-fluid starts-->
+                <div class="container-fluid">
+                    <div class="page-header">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="page-header-left">
+                                    <h3>User List
+                                        <small>KeVoC Admin panel</small>
+                                    </h3>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <ol class="breadcrumb pull-right">
+                                    <li class="breadcrumb-item">
+                                        <a href="home">
+                                            <i data-feather="home"></i>
+                                        </a>
+                                    </li>
+                                    <li class="breadcrumb-item">Users</li>
+                                    <li class="breadcrumb-item active">User List</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Container-fluid Ends-->
+
+                <!-- Container-fluid starts-->
+                <div class="container-fluid">
+                    <div class="card">
+                        <div class="card-header">
+                            <form class="form-inline search-form search-box">
+                                <div class="form-group">
+                                    <input class="form-control-plaintext" type="search" placeholder="Search.."><span
+                                        class="d-sm-none mobile-search"><i data-feather="search"></i></span>
+                                </div>
+                            </form>
+
+                            
+                        </div>
+                        <table class="table">
+                            <thead>
+                              <tr>
+                                <th scope="col">Name</th>
+                                <th scope="col">Email</th>
+                                <th scope="col">Phone </th>
+                                <th scope="col">Verified </th>
+                                <th scope="col">Action </th>
+                              </tr>
+                              <thead>
+                              <% if(users.length > 0){
+                                for(let i=0;i<users.length;i++){
+                                    %>
+                                    <tr>
+                                    <td><%= users[i].name %></td>
+                                    <td><%= users[i].email %></td>
+                                    <td><%= users[i].mobile %></td>
+                                    <td><%
+                                        if(users[i].isVerified == 0){
+                                                %>
+                                                <p>not verified</p>
+                                                <%
+                                        } else{
+                                            %>
+                                            <p>verified</p>
+                                            <%
+                                        }
+                                        %></td>
+                                        <td>
+                           <% if (users[i].is_block == true){
+                             %>
+                           <a class="btn btn-success" href="/admin/unblock-user?id=<%= users[i]._id%>">Unblock</a>
+                           <% }else{%>
+                            <a class="btn btn-danger" href="/admin/block-user?id=<%= users[i]._id %>">Block</a>
+                          </td>
+                           
+                                    </tr>
+                                    <%
+                                }
+                            }
+                        }else{
+                                %>
+                                <tr>
+                                    <td colspan="5">users not found</td>
+                                </tr>
+                                <%
+                            }
+                            %>
+                              
+                            </tbody>
+                          </table>
+
+                       
+                        </div>
+                    </div>
+                </div>
+                // <!-- Container-fluid Ends-->
+            </div>
+
+            <%- include('../layout/adminLayouts/footer.ejs') %>

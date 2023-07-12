@@ -1,0 +1,208 @@
+<%- include('../layout/adminLayouts/header.ejs') %>
+<%- include('../layout/adminLayouts/sideBar.ejs') %>
+
+            <!-- Right sidebar Start-->
+            <!-- <div class="right-sidebar" id="right_side_bar">
+                <div>
+                    <div class="container p-0">
+                        <div class="modal-header p-l-20 p-r-20">
+                            <div class="col-sm-8 p-0">
+                                <h6 class="modal-title font-weight-bold">FRIEND LIST</h6>
+                            </div>
+                            <div class="col-sm-4 text-end p-0">
+                                <i class="me-2" data-feather="settings"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="friend-list-search mt-0">
+                        <input type="text" placeholder="search friend">
+                        <i class="fa fa-search"></i>
+                    </div>
+                    <div class="p-l-30 p-r-30 friend-list-name">
+                        <div class="chat-box">
+                            <div class="people-list friend-list">
+                                <ul class="list">
+                                    <li class="clearfix">
+                                        <img class="rounded-circle user-image blur-up lazyloaded"
+                                            src="/adminAssets/images/dashboard/user.jpg" alt="">
+                                        <div class="status-circle online"></div>
+                                        <div class="about">
+                                            <div class="name">Vincent Porter</div>
+                                            <div class="status">Online</div>
+                                        </div>
+                                    </li>
+                                    <li class="clearfix">
+                                        <img class="rounded-circle user-image blur-up lazyloaded"
+                                            src="/adminAssets/images/dashboard/user1.jpg" alt="">
+                                        <div class="status-circle away"></div>
+                                        <div class="about">
+                                            <div class="name">Ain Chavez</div>
+                                            <div class="status">28 minutes ago</div>
+                                        </div>
+                                    </li>
+                                    <li class="clearfix">
+                                        <img class="rounded-circle user-image blur-up lazyloaded"
+                                            src="/adminAssets/images/dashboard/user2.jpg" alt="">
+                                        <div class="status-circle online"></div>
+                                        <div class="about">
+                                            <div class="name">Kori Thomas</div>
+                                            <div class="status">Online</div>
+                                        </div>
+                                    </li>
+                                    <li class="clearfix">
+                                        <img class="rounded-circle user-image blur-up lazyloaded"
+                                            src="/adminAssets/images/dashboard/user3.jpg" alt="">
+                                        <div class="status-circle online"></div>
+                                        <div class="about">
+                                            <div class="name">Erica Hughes</div>
+                                            <div class="status">Online</div>
+                                        </div>
+                                    </li>
+                                    <li class="clearfix">
+                                        <img class="rounded-circle user-image blur-up lazyloaded"
+                                            src="/adminAssets/images/dashboard/user3.jpg" alt="">
+                                        <div class="status-circle offline"></div>
+                                        <div class="about">
+                                            <div class="name">Ginger Johnston</div>
+                                            <div class="status">2 minutes ago</div>
+                                        </div>
+                                    </li>
+                                    <li class="clearfix">
+                                        <img class="rounded-circle user-image blur-up lazyloaded"
+                                            src="/adminAssets/images/dashboard/user5.jpg" alt="">
+                                        <div class="status-circle away"></div>
+                                        <div class="about">
+                                            <div class="name">Prasanth Anand</div>
+                                            <div class="status">2 hour ago</div>
+                                        </div>
+                                    </li>
+                                    <li class="clearfix">
+                                        <img class="rounded-circle user-image blur-up lazyloaded"
+                                            src="/adminAssets/images/dashboard/designer.jpg" alt="">
+                                        <div class="status-circle online"></div>
+                                        <div class="about">
+                                            <div class="name">Hileri Jecno</div>
+                                            <div class="status">Online</div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <!-- Right sidebar Ends-->
+
+            <div class="page-body">
+                <!-- Container-fluid starts-->
+                <div class="container-fluid">
+                    <div class="page-header">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="page-header-left">
+                                    <h3>Category
+                                        <small>Multikart Admin panel</small>
+                                    </h3>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <ol class="breadcrumb pull-right">
+                                    <li class="breadcrumb-item">
+                                        <a href="index.html">
+                                            <i data-feather="home"></i>
+                                        </a>
+                                    </li>
+                                    <li class="breadcrumb-item">Physical</li>
+                                    <li class="breadcrumb-item active">Category</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Container-fluid Ends-->
+
+                <!-- Container-fluid starts-->
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="card">
+                                <div class="card-header">
+                                    <form class="form-inline search-form search-box">
+                                        <div class="form-group">
+                                            <input class="form-control-plaintext" type="search" placeholder="Search..">
+                                        </div>
+                                    </form>
+
+                                    <button type="button" class="btn btn-primary mt-md-0 mt-2" data-bs-toggle="modal"
+                                    data-original-title="test" data-bs-target="#exampleModal">Add 
+                                    Category</button>
+                                </div>
+                                
+                                <table class="table">
+                                    <thead class="thead-dark">
+                                      <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">CATEGORY Name</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                     <% Category.forEach((cat,index) => { %>
+                                      
+                                   
+                                      <tr>
+                                        <th scope="row"><%= index+1  %></th>
+                                        
+                                        <td><%= cat.category_name %></td>
+                                        
+                                            <td>
+                                                <% if (cat.is_delete == true){
+                                                  %>
+                                                <a class="btn btn-success" href="/admin/listcategory?id=<%= cat._id%>">list</a>
+                                                <% }else{%>
+                                                 <a class="btn btn-danger" href="/admin/unlistcategory?id=<%= cat._id %>">unlist</a>
+                                               
+
+                                                <%}%>
+                                                <button type="button" class="btn btn-outline-primary "  data-bs-toggle="modal" data-bs-target="#editCategoryModal-<%= cat._id %>">EDIT</button>
+                                                <div class="modal fade" id="editCategoryModal-<%=cat._id %>" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">EDIT CATEGORY</h5>
+                                    
+                                  </div>
+                                  <div class="modal-body">
+                                    <form action="/admin/editCategory/<%= cat._id %>" method="post" class="forms-sample" id="editForm">
+
+                                      <div class="form-group">
+                                        <label for="exampleInputPassword1">Category Name</label>
+                                        <input type="text" class="form-control"  value="<%= cat.category_name %>" name="categoryName" id="editCatName">
+                                        <span class="text-danger " id="catEditError"></span>
+                                      </div>
+                                    <button type="submit" class="btn btn-primary mr-2">Submit</button>
+                                        
+                                        <button type="button" class="btn btn-dark" data-bs-dismiss="modal" aria-label="Close">Cancel</button>
+                                      </form>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    </div>
+                                        </td>
+
+
+                                      </tr>
+
+                                      <% }) %>
+                                     
+                                    </tbody>
+                                  </table>
+                                 
+                                
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Container-fluid Ends-->
+                <%- include('../layout/adminLayouts/footer.ejs') %>

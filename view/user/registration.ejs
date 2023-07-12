@@ -1,0 +1,76 @@
+<%- include('../layout/userLayouts/header.ejs') %>
+<%- include('../layout/userLayouts/nav.ejs') %>
+
+
+  <!-- Body Start -->
+  <body>
+    <!-- Loader Start -->
+    <div class="loader-wrapper">
+      <div class="loader animate">
+        <span>K</span>
+        <span>e</span>
+        <span>V</span>
+        <span>o</span>
+        <span>C</span>
+      </div>
+    </div>
+    <!-- Loader End -->
+
+    <!-- Main Start -->
+    <div class="main">
+      <section class="page-body p-0">
+        <div class="row g-0 ratio_asos">
+          <div class="order-2 order-lg-1 col-lg-5">
+            <div class="content-box">
+              <div>
+                <h5>CREATE ACCOUNT<span class="bg-theme-blue"></span></h5>
+                <p class="font-md content-color">How do i get access order,wishlist and recommendation ?</p>
+
+                <form action="/registration" method="post" class="custom-form form-pill">
+                  <div class="input-box">
+                    <label for="name">Full Name</label>
+                    <input class="form-control" type="text" required="" name="name" id="name">
+                  </div>
+                  <div class="input-box">
+                    <label for="email">Email</label>
+                    <input class="form-control" type="email" required="" name="email" id="email">
+                  </div>
+                  <div class="input-box">
+                    <label for="number">Number</label>
+                    <input class="form-control" type="number" required name="mobile" id="number">
+                  </div>
+                  <div class="input-box">
+                    <label for="password">Password</label>
+                    <div class="icon-input">
+                      <input class="form-control" type="password" required="" name="password" id="password">
+                      <img class="showHidePassword" src="/userAssets/icons/svg/eye-1.svg" alt="eye">
+                    </div>
+                  </div>
+                  <% if (typeof message !== 'undefined') { %>
+                    <p style="color: brown;"> <%= message %></p>
+                 <% } %>
+  
+
+                 <a href="/Otp"><button type="submit" class="btn-solid rounded-pill line-none theme-color" >SignUp <i class="arrow"></i></button></a> 
+                
+                </form>
+
+                <span class="backto-link font-default content-color text-decoration-none">Already have an Account? <a class="text-decoration-underline theme-color" href="login">Sign In </a>
+                </span>
+                
+                
+              </div>
+            </div>
+          </div>
+          <div class="order-1 order-lg-2 col-lg-7">
+            <div class="img-box">
+              <img class="bg-img" src="/userAssets/images/inner-page/banner.jpg" alt="banner">
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- Main End -->
+
+    <%- include('../layout/userLayouts/footer.ejs') %>
+
