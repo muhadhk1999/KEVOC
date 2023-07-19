@@ -4,6 +4,8 @@ const Product=require("../model/productModel")
 const bcrypt=require("bcrypt")
 const nodemailer=require("nodemailer")
 const passwordValidator= require('password-validator')
+const Category=require("../model/categoryModel")
+const Address=require("../model/addressModel")
   
 
 
@@ -56,6 +58,7 @@ async function loadHome(req, res, next) {
             res.render('home')
         }
         else{
+          console.log('hhhhhhhhhhhhhh');
             res.render('login')
         }
     } catch (error) {
@@ -140,7 +143,7 @@ const insertUser = async (req, res, next) => {
     try {
       
         const email=req.body.email
-        const password=req.body.password
+        const password = req.body.password
 
         const userData = await User.findOne({email:email})
 
@@ -230,11 +233,213 @@ const verifyEmail = async (req,res,next)=>{
 const loadProduct= async  (req,res)=>{
 
   try {
-      res.render('product')
+    const id = req.params.id
+    const productData = await Product.findById(id)
+      res.render('product',{product:productData})
   } catch (error) {
       console.log(error.message)
   }
 
+}
+
+//============================================SHOP PAGE RENDERING====================//
+
+const loadShop = async(req,res) =>{
+  try {
+    const productdata = await Product.find( );
+
+    const session = req.session.user_id;
+    const catData = await Category.find({ is_delete: false });
+    let userdata = null;
+
+    if (req.session.user_id) {
+      userdata = await User.findById(req.session.user_id);
+    }
+
+    
+    res.render("shop",{
+      userData: userdata,
+      category: catData,
+      session,
+      products: productdata
+    });
+  } catch (error) {
+    console.log(error.message);
+  }
+}
+
+// ================================== LAOAD PROFILE =====================================================================//
+
+const loadProfile = async (req, res,next) => {
+  try {
+    if(req.session.user_id){
+      const session = req.session.user_id
+      const id = req.session.user_id
+      const userdata = await User.findById({_id: req.session.user_id})
+      res.render("profile", { userData: userdata,session });
+    }else{
+      const session = null
+      res.redirect("/home",{message:"please login"})
+    }
+    
+    
+  } catch (error) {
+    next(error);
+  }
+};
+
+//===============================================EDIT PASSWORD PAGE RENDERING=============================================//
+
+const loadeditPassword= async(req,res)=>{
+
+  try {
+    // if(req.session.user_id){
+      res.render('editPassword')
+    // }
+  } catch (error) {
+    next(error)
+  }
+
+}
+
+//==================================================CART PAGE RENDERING====================================================//
+
+// const loadCart= async(req,res,next)=>{
+//   try {
+      
+//       res.render('cart')
+//   } catch (error) {
+//       next(error)
+//   }
+// }
+
+//=================================================CHECKOUT PAGE RENDERING====================================================//
+
+const loadcheckOut = async (req, res, next) => {
+  try {
+    req.query.id
+    const session=req.session.user_id
+    const addressData = await Address.findOne({ userId: req.session.user_id });
+    // console.log(addressData);
+    if (addressData) {
+      const address = addressData.addresses;
+      res.render('checkOut', { addresses: address}); 
+    } else {
+      res.render('checkOut', { addresses: [] });
+    }
+  } catch (error) {
+    next(error);
+  }
+}
+
+//==================================================EDIT PROFILE PAGE==========================================================//
+
+const editProfile=async(req,res,next)=>{
+  try {
+    const id=req.session.user_id
+    const updatedProfile=await User.findByIdAndUpdate(id,{
+      $set:{
+        name:req.body.name,
+        email:req.body.email,
+        mobile:req.body.mobile
+      }
+      
+    })
+    if(updatedProfile){
+      res.redirect('/profile')
+    }
+    else{
+      res.redirect('/profile')
+    }
+  } catch (error) {
+    next(error)
+  }
+}
+
+//==================================================RESET PASSWORD======================================================//
+
+const resetPassword = async(req,res,next)=>{
+
+      try {
+        const password1 = req.body.password1
+        const password2 = req.body.password2
+        const password3 = req.body.password3
+        
+        const id = req.session.user_id
+        const userData = await User.findById(id)
+        console.log(userData);
+        if(userData){
+          const passwordMatch = await bcrypt.compare(password1,userData.password)
+              if(passwordMatch){
+                  if(password2 == password3){
+                    const spassword = await securePassword(password3)
+                    const updatedPassword = await User.findByIdAndUpdate(id,{
+                      $set:{
+                        password:spassword
+                      }
+                    })
+                    req.session.destroy()
+                    res.redirect("/profile")
+                  }else{
+                    res.redirect("/editPassword")
+                  }
+              }else{
+                res.redirect("/editPassword")
+              }
+        }else{
+          res.redirect("/home")
+        }
+
+        
+
+      } catch (error) {
+        next(error)
+      }
+}
+
+//========================================================LOGOUT==========================================================//
+
+const logout= async(req,res)=>{
+  try {
+      req.session.destroy()
+      res.rendirect('/home')
+  } catch (error) {
+      console.log(error.message)
+  }
+}
+
+//=========================================PAYMENT PAGE LOADING===========================================================//
+
+const loadpayment= async(req,res,next)=>{
+  try {
+    res.render('payment')
+  } catch (error) {
+    next(error)
+  }
+}
+
+//======================================= FILTER BY CATEGORY =============================================================//
+
+const filterByCategory =async (req,res,next)=>{
+  try {
+    
+    const id = req.params.id
+    const session = req.session.user_id
+    const catData = await Category.find({is_delete:false })
+    const userData = await User.find({})
+    const productData = await Product.find({category:id }).populate('category')
+    console.log(productData);
+
+    if (catData.length > 0) {
+      res.render("shop",{session,userData:userData,products:productData,
+        category:catData,})
+    } else {
+      res.render("shop",{session,userData:userData,products:productData,category:catData})
+
+    }
+  } catch (error) {
+    next(error);
+  }
 }
 
 
@@ -248,6 +453,16 @@ const loadProduct= async  (req,res)=>{
     verifylogin,
     loadOtpVerification ,
     verifyEmail,
-    loadProduct
+    loadProduct,
+    loadShop,
+    loadProfile,
+    loadeditPassword,
+    // loadCart,
+    loadcheckOut,
+    editProfile,
+    resetPassword,
+    logout,
+    loadpayment,
+    filterByCategory
     
   }

@@ -15,7 +15,7 @@ const loadCategory= async  (req,res)=>{
 
 }
 
-const addCategory= async (req,res)=>{
+const addCategory= async (req,res,next)=>{
     try {
         const name=req.body.category
         const existingCategory= await Category.findOne({category_name:name})

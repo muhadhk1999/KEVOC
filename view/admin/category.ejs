@@ -101,14 +101,14 @@
                             <div class="col-lg-6">
                                 <div class="page-header-left">
                                     <h3>Category
-                                        <small>Multikart Admin panel</small>
+                                        <small>KeVoC Admin panel</small>
                                     </h3>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <ol class="breadcrumb pull-right">
                                     <li class="breadcrumb-item">
-                                        <a href="index.html">
+                                        <a href="/home">
                                             <i data-feather="home"></i>
                                         </a>
                                     </li>
@@ -134,10 +134,36 @@
                                     </form>
 
                                     <button type="button" class="btn btn-primary mt-md-0 mt-2" data-bs-toggle="modal"
-                                    data-original-title="test" data-bs-target="#exampleModal">Add 
+                                    data-original-title="test" data-bs-target="#addcategory">Add 
                                     Category</button>
+
+
+                                    
                                 </div>
-                                
+                                <div class="modal fade" id="addcategory" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+                                <div class="modal-dialog">
+                                        <div class="modal-content">
+                                          <div class="modal-header">
+                                            <h5 class="modal-title" id="addcategory">ADD CATEGORY</h5>
+                                            
+                                          </div>
+                                          <div class="modal-body">
+                                            <form action="" method="post" class="forms-sample" id="editForm">
+        
+                                              <div class="form-group">
+                                                <label for="exampleInputPassword1">Category Name</label>
+                                                <input type="text" class="form-control"   name="category" id="editCatName">
+                                                <span class="text-danger " id="catEditError"></span>
+                                              </div>
+                                            <button type="submit" class="btn btn-primary mr-2">Submit</button>
+                                                
+                                                <button type="button" class="btn btn-dark" data-bs-dismiss="modal" aria-label="Close">Cancel</button>
+                                              </form>
+                                            </div>
+                                            </div>
+                                            </div>
+                                            </div>
                                 <table class="table">
                                     <thead class="thead-dark">
                                       <tr>
@@ -205,6 +231,4 @@
                     </div>
                 </div>
                 <!-- Container-fluid Ends-->
-
-                <input type="hidden">
                 <%- include('../layout/adminLayouts/footer.ejs') %>

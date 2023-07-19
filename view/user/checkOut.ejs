@@ -1,0 +1,286 @@
+<%- include('../layout/userLayouts/header.ejs') %>
+<%- include('../layout/userLayouts/nav.ejs') %>
+
+  <!-- Main Start -->
+  <main class="main">
+    <!-- Breadcrumb Start -->
+    <div class="breadcrumb-wrap">
+      <div class="banner">
+        <img class="bg-img bg-top" src="" style="border: 0cqmax;" alt="banner">
+
+        <div class="container-lg">
+          <div class="breadcrumb-box">
+            <div class="heading-box">
+              <h1>Checkout</h1>
+            </div>
+            <ol class="breadcrumb">
+              <li><a href="/home">Home</a></li>
+              <li>
+                <a href="javascript:void(0)"><i data-feather="chevron-right"></i></a>
+              </li>
+              <li><a href="/shop">Shop</a></li>
+              <li>
+                <a href="javascript:void(0)"><i data-feather="chevron-right"></i></a>
+              </li>
+              <li><a href="/cart">Cart</a></li>
+              <li>
+                <a href="javascript:void(0)"><i data-feather="chevron-right"></i></a>
+              </li>
+              <li class="current"><a href="/checkOut">Checkout</a></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Breadcrumb End -->
+
+    <!-- Checkout Section Start -->
+    <section class="checkout">
+      <div class="container-lg">
+        <div class="row g-3 g-sm-4 cart">
+          <div class="col-md-7 col-lg-8 col-xl-9">
+            <div class="address-wrap">
+              <div class="title-box2">
+                <h2 class="heading-2">Select Delivery Address</h2>
+              </div>
+
+              <div class="row g-3 g-md-4">
+                <div class="col-12 col-xl-6">
+                  <div class="address-box add-new d-flex flex-column gap-2 align-items-center justify-content-center" data-bs-toggle="modal" data-bs-target="#addNewAddress">
+                    <span class="plus-icon"><i data-feather="plus"></i></span>
+                    <h4 class="theme-color font-xl fw-500">Add New Address</h4>
+                  </div>
+                </div>
+                <%
+					if(addresses.length > 0){
+    					addresses.forEach((address) =>{
+													%>
+                <div class="col-12 col-xl-6">
+                  <div class="address-box checked">
+                    <div class="radio-box">
+                      <div>
+                        <input class="radio-input" type="radio" checked="" id="radio1" name="radio1">
+                        <label class="radio-label" for="radio1"><%= address.userId %> </label>
+                        
+                      </div>
+                      <span class="badges badges-pill badges-theme">Home</span>
+                      <div class="option-wrap">
+                        <span class="edit" data-bs-toggle="modal" data-bs-target="#edditAddress<%= address._id %>"><i data-feather="edit"></i></span>
+                        <span class="delet ms-0" data-bs-toggle="modal" data-bs-target="#conformation<%= address._id %>"><i data-feather="trash"></i></span>
+                     
+                        <!-- Edit Address Modal Start -->
+<div class="modal fade addnew-address" id="edditAddress<%= address._id %>" tabindex="-1" aria-labelledby="edditAddressLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="edditAddressLabel">Edit Address</h5>
+        <span class="close-modal" data-bs-dismiss="modal"><i data-feather="x"></i></span>
+      </div>
+
+      <div class="modal-body full-grid-mobile">
+        <form action="/editAddress/<%= address._id %> " class="custom-form form-pill" method="post">
+          <div class="row g-3 g-md-4">
+            <div class="col-12">
+              <div class="input-box">
+                <label for="name">Full Name</label>
+                <input class="form-control" type="text" required="" name="name" id="name" value="<%= address.userName %>">
+              </div>
+            </div>
+
+            <div class="col-6">
+              <div class="input-box">
+                <label for="email2">Email</label>
+                <input class="form-control" type="email" required="" name="email" id="email2" value="<%= address.email %>">
+              </div>
+            </div>
+
+            <div class="col-6">
+              <div class="input-box">
+                <label for="mobile2">Mobile No:</label>
+                <input maxlength="9" class="form-control" type="number" required="" name="mobile" id="mobile2" value="<%= address.mobile %>">
+              </div>
+            </div>
+
+            <div class="col-12">
+              <div class="input-box">
+                <label for="address3">House Name</label>
+                <input class="form-control" type="text"  name="housename" value="<%= address.houseName %>">
+              </div>
+            </div>
+
+            <!-- <div class="col-12">
+              <div class="input-box">
+                <label for="address4">Address2</label>
+                <input class="form-control" type="text" required="" name="address4" id="address4">
+              </div>
+            </div> -->
+
+            <!-- <div class="col-6 col-sm-4">
+              <div class="input-box">
+                <label for="country">Country</label>
+                <select class="form-select form-control" id="country" name="country">
+                  <option selected="" disabled="" value="">Choose...</option>
+                  <option>United States</option>
+                  <option>India</option>
+                  <option>America</option>
+                  <option>South America</option>
+                  <option>Dubai</option>
+                  <option>Hong Kong</option>
+                  <option>Indonesia</option>
+                  <option>Pakistan</option>
+                  <option>Saudi Arabia</option>
+                  <option>China</option>
+                </select>
+              </div>
+            </div> -->
+
+            <div class="col-6 col-sm-4">
+              <div class="input-box">
+                <label for="city2">City</label>
+                <input class="form-control" type="text" required="" name="city" id="address3" value="<%= address.city %>">
+              </div>
+            </div>
+
+            <div class="col-sm-4">
+              <div class="input-box">
+                <label for="zip">Pin Code</label>
+                <input maxlength="4" class="form-control" type="number" required="" name="pinCode" id="zip" value="<%= address.pincode %>">
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="input-box">
+                <label for="address3">Land Mark</label>
+                <input class="form-control" type="text" required="" name="landmark" id="address3" value="<%= address.landmark %>">
+              </div>
+            </div>
+          </div>
+          
+        
+      </div>
+
+      <div class="modal-footer">
+        <div class="btn-box">
+          <button type="button" class="btn btn-outline rounded-pill" data-bs-dismiss="modal" aria-label="Close">Close</button>
+          <button type="submit" class="btn btn-solid line-none rounded-pill">Edit Address <i class="arrow"></i></button>
+        </form>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+                     
+<div class="modal fade action-conform" id="conformation<%= address._id %>" tabindex="-1" aria-labelledby="conformationLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="conformationLabel">Are You Sure ?</h5>
+        <span class="close-modal" data-bs-dismiss="modal"><i data-feather="x"></i></span>
+      </div>
+      <div class="modal-body">
+        <p class="font-md">The permission for the use/group, preview is inherited from the object, object will create a new permission for this object</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline btn-sm" data-bs-dismiss="modal">Close</button>
+        <a href="/deleteConfirm?id=<%= address._id %>" type="button" class="btn btn-solid btn-sm line-none" >Remove <i class="arrow"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+                     
+                     
+                        </div>
+                    </div>
+                    <div class="address-detail">
+                        <p class="content-color font-default"><%= address.userName %></p>
+                        <p class="content-color font-default"><%= address.email %></p>
+                        <h4>Address:</h4>
+                        <p class="content-color font-default"><%= address.houseName %></p>
+                        <span class="content-color font-default mt-1">city: <span class="title-color font-default fw-500"> <%= address.city %></span></span>
+                        <span class="content-color font-default mt-1">landmark: <span class="title-color font-default fw-500"> <%= address.landmark %></span></span>
+                        <p class="content-color font-default"><%= address.city %></p>
+                        <p class="content-color font-default"><%= address.pincode %></p>
+                      <span class="content-color font-default">Mobile: <span class="title-color font-default fw-500"> <%= address.mobile %></span></span>
+                     
+                      
+                    </div>
+                  </div>
+
+
+                </div>
+
+                <%
+                        						})
+                      							  }else{%>
+													<p class="text-success">Your Delivery Address Will Appear Here. . . . . </p>
+													<%	 } %>
+
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-5 col-lg-4 col-xl-3">
+            <div class="summery-wrap">
+              <div class="coupon-box">
+                <h5 class="cart-title">Coupon</h5>
+                <div class="text-wrap">
+                  <h4><i data-feather="tag"></i> Apply Coupon</h4>
+                  <a href="javascript:void(0)" class="btn btn-outline btn-sm">Apply</a>
+                </div>
+
+                <p class="content-color font-md mb-0"><a href="login.html" class="theme-color">Login</a> to see best coupon for you</p>
+              </div>
+              <div class="cart-wrap grand-total-wrap">
+                <div>
+                  <div class="order-summery-box">
+                    <h5 class="cart-title">Price Details (3 Items)</h5>
+                    <ul class="order-summery">
+                      <li>
+                        <span>Bag total</span>
+                        <span>$220.00</span>
+                      </li>
+
+                      <li>
+                        <span>Bag savings</span>
+                        <span class="theme-color">-$20.00</span>
+                      </li>
+
+                      <li>
+                        <span>Coupon Discount</span>
+                        <a href="javascript:void(0)" class="font-danger">Apply Coupon</a>
+                      </li>
+
+                      <li>
+                        <span>Delivery</span>
+                        <span>$50.00</span>
+                      </li>
+
+                      <li class="pb-0">
+                        <span>Total Amount</span>
+                        <span>$270.00</span>
+                      </li>
+                    </ul>
+                    <div class="row g-3 mt-2">
+                      <div class="col-6 col-md-12">
+                        <a href="/payment" class="btn-solid checkout-btn">Proceed To Pay <i class="arrow"></i></a>
+                      </div>
+                      <div class="col-6 col-md-12">
+                        <a href="/shop" class="btn-outline w-100 justify-content-center checkout-btn"> Back To Shop </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Checkout Section End -->
+  </main>
+  <!-- Main End -->
+
+
+
+
+<%- include('../layout/userLayouts/footer.ejs') %>

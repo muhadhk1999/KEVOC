@@ -22,16 +22,24 @@ const productSchema= new mongoose.Schema({
         type:Number,
         required:true
     },
-    Category : { 
-        type :  mongoose.Schema.Types.ObjectId,
-        required:true,
-        ref:"Catagory"
-    },
+    category: {
+        type: mongoose.Schema.Types.ObjectId,
+        required: true,
+        ref: 'Category'
+      },
+      
     image:{
         type:Array,
         required:true
-    }
-
+    },
+    is_delete:{
+        type:Boolean,
+        default:false
+    },
+    // Status:{
+    //     type:Boolean,
+    //     default:true
+    // }
 })
 
 module.exports=mongoose.model('product',productSchema);

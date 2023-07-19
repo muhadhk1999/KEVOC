@@ -1,6 +1,11 @@
 
 <%- include('../layout/userLayouts/header.ejs') %>
 <%- include('../layout/userLayouts/nav.ejs') %>
+
+<!-- Main Start -->
+<main class="main">
+  <!-- Breadcrumb Start -->
+ 
       <!-- Product Section Start -->
       <section class="product-page">
         <div class="container-lg">
@@ -13,23 +18,23 @@
                       <div class="swiper thumbnail-img-box thumbnailSlider2">
                         <div class="swiper-wrapper">
                           <div class="swiper-slide">
-                            <img src="/userAssets/images/fashion/product/front/7.jpg" alt="img">
+                            <img src="/adminAssets/adminImages/<%= product.image[0] %>" alt="img">
                           </div>
 
                           <div class="swiper-slide">
-                            <img src="/userAssets/images/fashion/product/front/7-1.jpg" alt="img">
+                            <img src="/adminAssets/adminImages/<%= product.image[1] %>" alt="img">
                           </div>
 
                           <div class="swiper-slide">
-                            <img src="/userAssets/images/fashion/product/front/7-2.jpg" alt="img">
+                            <img src="/adminAssets/adminImages/<%= product.image[2] %>" alt="img">
                           </div>
 
                           <div class="swiper-slide">
-                            <img src="/userAssets/images/fashion/product/front/7-3.jpg" alt="img">
+                            <img src="/adminAssets/adminImages/<%= product.image[3] %>" alt="img">
                           </div>
 
                           <div class="swiper-slide">
-                            <img src="/userAssets/images/fashion/product/front/7-1.jpg" alt="img">
+                            <img src="/adminAssets/adminImages/<%= product.image[0] %>" alt="img">
                           </div>
                         </div>
                       </div>
@@ -40,23 +45,23 @@
                     <div class="swiper mainslider2">
                       <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                          <img class="bg-img" src="/userAssets/images/fashion/product/front/7.jpg" alt="img">
+                          <img class="bg-img" src="/adminAssets/adminImages/<%= product.image[0] %>" alt="img">
                         </div>
 
                         <div class="swiper-slide">
-                          <img class="bg-img" src="/userAssets/images/fashion/product/front/7-1.jpg" alt="img">
+                          <img class="bg-img" src="/adminAssets/adminImages/<%= product.image[1] %>" alt="img">
                         </div>
 
                         <div class="swiper-slide">
-                          <img class="bg-img" src="/userAssets/images/fashion/product/front/7-2.jpg" alt="img">
+                          <img class="bg-img" src="/adminAssets/adminImages/<%= product.image[2] %>" alt="img">
                         </div>
 
                         <div class="swiper-slide">
-                          <img class="bg-img" src="/userAssets/images/fashion/product/front/7-3.jpg" alt="img">
+                          <img class="bg-img" src="/adminAssets/adminImages/<%= product.image[3] %>" alt="img">
                         </div>
 
                         <div class="swiper-slide">
-                          <img class="bg-img" src="/userAssets/images/fashion/product/front/7.jpg" alt="img">
+                          <img class="bg-img" src="/adminAssets/adminImages/<%= product.image[0] %>" alt="img">
                         </div>
                       </div>
                     </div>
@@ -68,7 +73,7 @@
             <div class="col-md-5">
               <div class="product-detail-box">
                 <div class="product-option">
-                  <h2>Women’s long sleeve shirt</h2>
+                  <h2><%= product.product_title %></h2>
                   <div class="option rating-option">
                     <ul class="rating p-0">
                       <li>
@@ -90,12 +95,11 @@
                     <span>120 Rating</span>
                   </div>
 
-                  <div class="option price"><span> $200.00 </span> <del>$300.00</del></div>
+                  <div class="option price"><span>₹<%= product.product_price %> </span> <del></del></div>
 
                   <div class="option">
                     <p class="content-color">
-                      100% Cotton Indigo shirt with western yoke. Apt for casual outings, this shirt will keep you comfortable and stylish all day long.Indigo shirt with western yoke. Apt for casual
-                      outings
+                      <%= product.description %>
                     </p>
                   </div>
 
@@ -157,7 +161,7 @@
                   </div>
 
                   <div class="btn-group">
-                    <a href="javascript:void(0)" class="btn-solid btn-sm addtocart-btn">Add To Cart </a>
+                    <a type="button"  class="btn-solid btn-sm addtocart-btn" onclick="addtocart('<%=product._id %>')">Add To Cart </a>
                     <a href="javascript:void(0)" class="btn-outline btn-sm wishlist-btn">Add To Wishlist</a>
                   </div>
                 </div>
@@ -1014,5 +1018,44 @@
       <!-- New Arrived Section End -->
     </main>
     <!-- Main End -->
+<script>
+  function addtocart(productid){
+     $.ajax({
+         url:"/addtocart",
+         method:"post",
+         data:{
+             id:productid
+         },
+         success:(response)=>{
+             if(response.success){
+                 swal.fire({
+
+                     positon:'center',
+                     icon:"success",
+                     title  : 'product added to cart',
+                     showConfirmButton:false,
+                     timer : 1500,
+
+                 })
+                //  location.reload();
+             }else{
+                swal.fire({
+
+                positon:'center',
+                icon:"warning",
+                title  : 'product Quantity exceeded',
+                showConfirmButton:false,
+                timer : 1500,
+
+})
+             }
+         }
+         
+     })
+    }
+</script>
+
+
+    
 
     <%- include('../layout/userLayouts/footer.ejs') %>

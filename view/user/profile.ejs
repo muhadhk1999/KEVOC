@@ -1,0 +1,126 @@
+<%- include('../layout/userLayouts/header.ejs') %> 
+<%- include('../layout/userLayouts/nav.ejs') %> 
+
+<section class="user-dashboard">
+    <div class="container-lg">
+      <div class="row g-3 g-xl-4 tab-wrap">
+        <div class="col-lg-4 col-xl-3 sticky" >
+          <button class="setting-menu btn-solid btn-sm d-lg-none">Setting Menu <i class="arrow"></i></button>
+          <div class="side-bar" >
+            <span class="back-side d-lg-none"> <i data-feather="x"></i></span>
+            <div class="profile-box"  >
+              <div class="img-box">
+                <img class="img-fluid" src="/userAssets/images/avatar/avatar.jpg" alt="user">
+                <div class="edit-btn">
+                  <i data-feather="edit"></i>
+                  <input class="updateimg" type="file" name="img">
+                </div>
+              </div>
+
+              <div class="user-name">
+                <h5><%= userData.name  %></h5>
+                <h6><%= userData.email  %></h6>
+
+                <button class="btn-outline btn-sm">Orders</button>
+              </div>
+            </div>
+
+            
+          </div>
+        </div>
+
+        <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+            <div class="profile">
+              <div class="title-box3">
+                <h3>Basics Information</h3>
+              </div>
+
+              <form action="/editProfile" class="custom-form form-pill" method="post">
+                <div class="row g-3 g-xl-4">
+                  <div class="col-sm-6">
+                    <div class="input-box">
+                      <label for="fullname">Full Name</label>
+                      <input class="form-control" id="fullname" name="fullname" type="text" value="<%= userData.name  %>">
+                    </div>
+                  </div>
+
+                  <div class="col-sm-6">
+                    <div class="input-box">
+                      <label for="email">Email</label>
+                      <input class="form-control" id="email" name="email" type="email" value="<%= userData.email  %>">
+                    </div>
+                  </div>
+
+                  <div class="col-sm-4">
+                    <div class="input-box">
+                      <label for="mobile">Mobile</label>
+                      <input maxlength="10" class="form-control" id="mobile" name="mobile" type="number" value="<%= userData.mobile  %>">
+                    </div>
+                  </div>
+
+                  <div class="col-sm-4">
+                    <div class="input-box">
+                      <label for="gender">Gender</label>
+                      <select name="gender" id="gender" class="form-control">
+                        <option selected="">Male</option>
+                        <option>Female</option>
+                        <option>Other</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <!-- <div class="col-sm-4">
+                    <div class="input-box">
+                      <label for="location">Location</label>
+                      <select name="location" id="location" class="form-control">
+                        <option>India</option>
+                      </select>
+                    </div>
+                  </div> -->
+
+
+                  
+
+                  <!-- <div class="col-sm-6">
+                    <div class="input-box">
+                      <label for="al-mobile">Alternate Mobile</label>
+                      <input maxlength="10" class="form-control" id="al-mobile" name="al-mobile" type="number" value="7565441862">
+                    </div>
+                  </div> -->
+
+                  <!-- <div class="col-sm-6">
+                    <div class="input-box">
+                      <label for="hint-name">Nick Name</label>
+                      <input class="form-control" id="hint-name" name="hint-name" type="text" value="Josephin ">
+                    </div>
+                  </div> -->
+                </div>
+
+                <div class="btn-box mt-4">
+                  
+                  <button type="submit"  class="btn-solid btn-sm">Save Changes <i class="arrow"></i></button>
+                </div>
+              </form>
+            </div>
+            <a  class="btn-outline btn-sm mt-4" href="/editPassword">Change password</a>
+          </div>
+          <!-- Profile Tabs End -->
+
+          <!-- <h2>YOUR ADDRESSES</h2> -->
+
+      </div>
+    </div>
+  
+
+</section>
+
+
+
+
+
+
+
+
+
+
+<%- include('../layout/userLayouts/footer.ejs') %> 
