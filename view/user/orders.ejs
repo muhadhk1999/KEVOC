@@ -1,0 +1,76 @@
+<%- include('../layout/userLayouts/header.ejs') %>
+<%- include('../layout/userLayouts/nav.ejs') %>
+
+<!-- Main Start -->
+<main class="main">
+  <!-- Top Section Start -->
+  <section class="p-0">
+    <div class="success-icon">
+      <div class="img-wrap">
+        <img class="success-img img-fluid" src="/userAssets/svg/order-success.svg" alt="vector">
+        <img class="check" src="/userAssets/svg/check.svg" alt="check">
+        <h2>YOUR ORDERS</h2>
+      </div>
+    </div>
+  </section>
+  <!-- Top Section End -->
+
+  <!-- Compare Section Start -->
+  <section class="section-b-space order-success">
+    <div class="container-lg">
+      <div class="row g-3 g-md-4 cart">
+        <div class="col-md-12">
+          <div class="cart-wrap">
+            <div class="items-list">
+              <table class="table cart-table">
+                <thead>
+                  <tr>
+                    <th class="d-none d-sm-table-cell">ORDER ID:</th>
+                    <th class="d-none d-sm-table-cell">ORDER DATE:</th>
+                    <th class="d-none d-lg-table-cell">ORDER STATUS:</th>
+                    <th class="d-none d-xl-table-cell">TOTAL AMOUNT:</th>
+                    <th class="d-none d-xl-table-cell">EXPECTED DATE OF DELIVERY:</th>
+                    <th class="d-none d-xl-table-cell">DETAILED VIEW:</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <% if(orders.length > 0){
+                      orders.forEach((order)=>{
+                        %>
+                        <tr>
+                          <td class="total d-none d-xl-table-cell"><%= order._id %></td>
+                          <td class="price d-none d-sm-table-cell"><%= order.date.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: '2-digit' }).replace(/\//g, '-') %></td>
+                          <td class="price d-none d-lg-table-cell"><%= order.status %></td>
+                          <td class="total d-none d-xl-table-cell"><%= order.totalAmount %></td>
+                          <td class="total d-none d-xl-table-cell"><%= order.date.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: '2-digit'}).replace(/\//g, '-') %></td>
+                          
+                          <td>
+                                    <a class="btn btn-outline-primary-2" href="/vieworder/<%= order._id %>">VIEW</a>
+                                  </td>
+                        </tr>
+                      <%})
+                    } else { %>
+                      <tr>
+                        <td colspan="5" class="text-center">
+                          <h1 class="d-flex justify-content-center">You Have No Orders</h1>
+                        </td>
+                      </tr>
+                    <% } %>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+         
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Compare Section End -->
+</main>
+<!-- Main End -->
+
+<%- include('../layout/userLayouts/footer.ejs') %>

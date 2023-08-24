@@ -22,14 +22,15 @@
               <li>
                 <a href="javascript:void(0)"><i data-feather="chevron-right"></i></a>
               </li>
-              <li class="current"><a href="cart.html">Cart</a></li>
+              <li class="current"><a href="/cart">Cart</a></li>
             </ol>
           </div>
         </div>
       </div>
     </div>
     <!-- Breadcrumb End -->
-
+    <%
+    if(products.length > 0){%>
     <!-- Cart Section Start -->
     <section class="section-b-space card-page"id="reloaddiv">
       <div class="container-lg">
@@ -40,12 +41,12 @@
                 <table class="table cart-table m-md-0" >
                   <thead>
                     <tr>
-                      <%
-                      if(products.length > 0){%>
+                     
                       <th class="d-none d-sm-table-cell">PRODUCT</th>
                       <th class="d-none d-sm-table-cell">PRICE</th>
                       <th class="d-none d-lg-table-cell">QUANTITY</th>
                       <th class="d-none d-xl-table-cell">TOTAL</th>
+                      <th class="d-none d-xl-table-cell">REMOVE</th>
                     </tr>
                   </thead>
 
@@ -83,7 +84,8 @@
                       </td>
                       
                       <td class="total d-none d-xl-table-cell"><%= product.totalPrice %></td>
-                      <td class="remove-col"><button class="btn-remove" onclick="deletecart('<%= product.productId._id %>')"><i class="icon-close"></i></button></td>
+                      <td><button class="btn-remove" onclick="deletecart('<%= product.productId._id %>')" type="button">Remove</button></td>
+                    
                     </tr>
                     <%
                         })
@@ -96,30 +98,30 @@
 
           <div class="col-md-5 col-lg-4">
             <div class="summery-wrap">
-              <div class="coupon-box">
-                <h5 class="cart-title">Coupon</h5>
-                <div class="text-wrap">
-                  <h4><i data-feather="tag"></i> Apply Coupon</h4>
-                  <a href="javascript:void(0)" class="btn btn-outline btn-sm">Apply</a>
-                </div>
-
-                <p class="content-color font-md mb-0"><a href="login.html" class="theme-color">Login</a> to see best coupon for you</p>
-              </div>
+              
               <div class="cart-wrap grand-total-wrap">
                 <div>
                   <div class="order-summery-box">
-                    <h5 class="cart-title">Price Details (3 Items)</h5>
+                    <h5 class="cart-title">Price Details</h5>
                     <ul class="order-summery">
                       
 
                       <li>
-                        <span>Coupon Discount</span>
-                        <a href="javascript:void(0)" class="font-danger">Apply Coupon</a>
+                        <span> Wallet :</span>
+                        <span>₹ <%= userData.wallet  %>.00</span>
+                      </li>
+                      <li>
+                        <span> Discount :</span>
+                        <span>₹ 00.00</span>
                       </li>
 
                       <li>
-                        <span>Free Delivery</span>
+                        <span>Free Delivery :</span>
                         <span>₹ 00.00</span>
+                      </li>
+                      <li>
+                        <span>Sub Total :</span>
+                        <span>₹ <%= prc %></span>
                       </li>
 
                       <li class="pb-0">
@@ -138,10 +140,10 @@
                       <%
                     }else{
                         %>
-                <div class="d-flex flex-column align-items-center ">
+                <div class="d-flex flex-column align-items-center my-5">
 
-                    <h2 class="text-danger">NO PRODUCTS AVAILABLE IN CART</h2>
-                    <a type="button" href="/shop" class="btn btn-outline-primary-2 mb-5">Back to shop</a>
+                    <h2 class="text-danger my-5">NO PRODUCTS AVAILABLE IN CART</h2>
+                    <a type="button" href="/shop" class="btn btn-outline-primary-2 my-5 ">Back to shop</a>
                 </div>
                         
                     <%}%>
@@ -158,7 +160,6 @@
   </main>
   <!-- Main End -->
 
-  // Quantity change in cart..
 
   <script>
     

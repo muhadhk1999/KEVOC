@@ -1,0 +1,64 @@
+<%- include('../layout/userLayouts/header.ejs') %>
+<%- include('../layout/userLayouts/nav.ejs') %>
+
+<main class="main">
+    <div class="breadcrumb-wrap">
+        <div class="banner">
+            <img class="bg-img bg-top" src="../assets/images/inner-page/banner-p.jpg" alt="banner">
+            <div class="container-lg">
+                <div class="breadcrumb-box">
+                    <div class="heading-box">
+                        <h1>My Wishlist</h1>
+                    </div>
+                    <ol class="breadcrumb">
+                        <li><a href="/index">Home</a></li>
+                        <li><a href="javascript:void(0)"><i data-feather="chevron-right"></i></a></li>
+                        <li class="current"><a href="/whishlist">Wishlist</a></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="section-b-space wishlist-page">
+        <div class="container-lg">
+            <% if (wishlist.length > 0) { %>
+                <div class="row g-3 g-xxl-4 ratio_asos row-cols-2 row-cols-sm-3 row-cols-lg-4 row-cols-xl-5 row-cols-xxl-6">
+                    <% wishlist.forEach((wish) => { %>
+                        <div class="col">
+                            <div class="product-card product-wishlist">
+                                <div class="img-box">
+                                    <a href="/product" class="primary-img"><img class="img-fluid bg-img" src="/adminAssets/adminImages/<%= wish.productId.image[0] %>" alt="product"> </a>
+                                    <div class="rating">
+                                        <span>4.5 <i data-feather="star"></i> </span>
+                                        <span>136</span>
+                                    </div>
+                                    <button class="delete-button" onclick="deletewishlist('<%= wish.productId._id %>')"><i data-feather="x"></i></button>
+                                </div>
+                                <div class="content-wrap">
+                                    <div class="content-box">
+                                        <a href="product.html">
+                                            <p><%= wish.productId.product_title %></p>
+                                            <h5><%= wish.productId.product_title %></h5>
+                                            <span><%= wish.productId.description %></span>
+                                        </a>
+                                    </div>
+                                    <div class="mov-to-bag">
+                                        <a class="btn btn-outline btn-sm addtocart-btn" onclick="addtocart('<%= wish.productId._id %>')">Move To Cart <i class="arrow"></i> </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <% }); %>
+                </div>
+            <% } else { %>
+                <h2 class="d-flex justify-content-center">NO PRODUCTS ADDED TO WISHLIST</h2>
+            <% } %>
+        </div>
+    </section>
+</main>
+
+<script>
+    // Your JavaScript code here...
+</script>
+
+<%- include('../layout/userLayouts/footer.ejs') %>

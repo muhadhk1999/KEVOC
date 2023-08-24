@@ -137,7 +137,9 @@
                                     data-original-title="test" data-bs-target="#addcategory">Add 
                                     Category</button>
 
-
+                                   
+                  
+                                %>
                                     
                                 </div>
                                 <div class="modal fade" id="addcategory" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -155,6 +157,23 @@
                                                 <label for="exampleInputPassword1">Category Name</label>
                                                 <input type="text" class="form-control"   name="category" id="editCatName">
                                                 <span class="text-danger " id="catEditError"></span>
+                                                <div class="form-group row">
+                                                    <label for="exampleFormControlSelect1"
+                                                        class="col-xl-3 col-sm-4 mb-0">offer Amount :</label>
+
+                                                <div class="col-xl-8 col-sm-7">
+                                                    <select class="form-control digits"id="exampleFormControlSelect1" name="offer">
+                                                        <option>No Offer</option>
+                                                       <%  offer.forEach((off)=>{ %>
+                                                             
+                                                        <option value="<%= off._id  %>"><%= off.offerName  %></option>
+                                                       <% })%>
+                                                       
+                                                     
+                                                     
+                                                    </select>
+                                                </div>
+                                                </div>
                                               </div>
                                             <button type="submit" class="btn btn-primary mr-2">Submit</button>
                                                 
@@ -169,6 +188,8 @@
                                       <tr>
                                         <th scope="col">#</th>
                                         <th scope="col">CATEGORY Name</th>
+                                        <th scope="col">Offer Amount</th>
+                                        <th scope="col">ACTION</th>
                                       </tr>
                                     </thead>
                                     <tbody>
@@ -179,7 +200,13 @@
                                         <th scope="row"><%= index+1  %></th>
                                         
                                         <td><%= cat.category_name %></td>
-                                        
+                                        <td>
+                                            <% if (cat.offer) { %>
+                                                <%= cat.offer.offPrice %>
+                                            <% } else { %>
+                                                No offer
+                                            <% } %>
+                                            </td>
                                             <td>
                                                 <% if (cat.is_delete == true){
                                                   %>
@@ -205,6 +232,23 @@
                                         <input type="text" class="form-control"  value="<%= cat.category_name %>" name="categoryName" id="editCatName">
                                         <span class="text-danger " id="catEditError"></span>
                                       </div>
+                                      <div class="form-group row">
+                                                    <label for="exampleFormControlSelect1"
+                                                        class="col-xl-3 col-sm-4 mb-0">offer Amount :</label>
+
+                                                <div class="col-xl-8 col-sm-7">
+                                                    <select class="form-control digits"id="exampleFormControlSelect1" name="offer">
+                                                        <option>No Offer</option>
+                                                       <%  offer.forEach((off)=>{ %>
+                                                             
+                                                        <option value="<%= off._id  %>"><%= off.offerName  %></option>
+                                                       <% })%>
+                                                       
+                                                     
+                                                     
+                                                    </select>
+                                                </div>
+                                                </div>
                                     <button type="submit" class="btn btn-primary mr-2">Submit</button>
                                         
                                         <button type="button" class="btn btn-dark" data-bs-dismiss="modal" aria-label="Close">Cancel</button>

@@ -12,7 +12,7 @@ const loadCart = async (req, res,next) => {
       const session = req.session.user_id;
       let userName = await User.findById({ _id:id });
   
-      let cartData = await Cart.findOne({ userId: id }).populate("products.productId");
+      let cartData = await Cart.findOne({ userId: id }).populate("products.productId")
       if (id) {
           if(cartData){
         if (cartData.products.length > 0) {
@@ -38,13 +38,16 @@ const loadCart = async (req, res,next) => {
           const totalAmount = Total;
           const userId = userName._id;
           
+          
+          
           res.render("cart", {
             products: products,
             Total: Total,
             userId,
             session,
             totalAmount,
-            userData:userName
+            userData:userName,
+          
           });
         } else {
           res.render("cart", {

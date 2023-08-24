@@ -1,37 +1,46 @@
 const dotenv= require('dotenv')
 dotenv.config()
 const mongoose = require('mongoose')
-mongoose.connect(process.env.secure)
+mongoose.connect(process.env.SECURE)
 const express = require("express");
 const app = express();
 const session = require("express-session");
 const nocache = require ("nocache")
 
+const sessionSecret='mysession-secret'
 
-require('./config/config')
+app.use(
+  session({
+      secret:sessionSecret,
+      saveUninitialized:true,
+      resave:false,
+      // cookie:{
+      //     maxAge:500000,
+      // },
+  })
+);
+
+
+
 const path = require("path");
-app.set("view engine", "ejs");
-app.set("views", "./view/user");
+
 app.use(express.static(path.join(__dirname, "public")));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use(nocache())
+
+
 
 // Routes
 const userRoute = require("./routes/userRoute");
 const adminRoute = require("./routes/adminRoute");
 
+
 app.use("/", userRoute);
-//app.use("/admin", adminRoute);
 app.use('/admin',adminRoute)
 
-//Error handling middleware
-app.use((err, req, res, next) => {
-  console.error(err);
-  res.render('404')
-});
-const morgan = require('morgan');
-  // app.use(morgan('tiny'));
 
-app.listen(process.env.port, function () {
+
+app.listen(process.env.PORT, function () {
   console.log("Server running");
 });

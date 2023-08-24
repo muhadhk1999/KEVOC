@@ -1,6 +1,7 @@
-const session = require("express-session")
 const User=require("../model/userModel")
 const bcrypt=require('bcrypt')
+const Category = require("../model/categoryModel")
+const Order = require("../model/orderModel")
 
 
 //=====================LOGIN PAGE LOADING==================//
@@ -25,7 +26,6 @@ const verifyLogin= async(req,res)=>{
         
         const email=req.body.email
         const password=req.body.password
-        console.log(email,password);
 
         const userData= await User.findOne({email:email})
 
@@ -37,8 +37,8 @@ const verifyLogin= async(req,res)=>{
                 if(userData.is_admin===0){
                     res.render('login',{message:'Email and password not match'})
                 }else{
-                    req.session.user_id = userData._id
-                    res.redirect('/admin/home')
+                    req.session.Auser_id = userData._id
+                    res.redirect('/admin/dashbord')
                 }
 
             }else{
@@ -56,26 +56,28 @@ const verifyLogin= async(req,res)=>{
 
 }
 
-//=====================HOME PAGE LOADING=============//
+// //=====================HOME PAGE LOADING=============//
 
-const loadHome= async  (req,res)=>{
+// const loadHome= async  (req,res)=>{
 
-    try {
+//     try {
         
-        res.render('home')
-    } catch (error) {
-        console.log(error.message)
-    }
+//         res.render('dashbord')
+//     } catch (error) {
+//         console.log(error.message)
+//     }
 
-}
+// }
 
-//============================DASHBORD LOADING==============//
+//============================USER LIST  LOADING==============//
 
 const loadUserList= async  (req,res)=>{
 
     try {
         const userData = await User.find({is_admin:0})
-        res.render('userList',{users:userData})
+        const adminData = await User.findById({ _id: req.session.Auser_id });
+        
+        res.render('userList',{users: userData,admin:adminData})
     } catch (error) {
         console.log(error.message)
     }
@@ -104,13 +106,177 @@ const unblock = async (req,res,next)=> {
 }
 
 
+//======================================LOAD DASHBORD================================================================//
+
+const loadDashbord= async (req,res,next)=>{
+    try {
+        const catData = await Category.find({is_delete:false})
+        const aggregationPipeline = [
+          // Total Sales Amount
+          {
+            $facet: {
+              totalSales: [
+                { $unwind: "$products" },
+                { $match: { "products.status": "Delivered", paymentMethod: "Wallet" } },
+                {
+                  $group: {
+                    _id: null,
+                    total: { $sum: "$products.totalPrice" },
+                  },
+                },
+                {
+                  $project: {
+                    _id: 0,
+                    total: 1,
+                  },
+                },
+              ],
+              CODTotal: [
+                // Total COD
+                { $unwind: "$products" },
+                { $match: { "products.status": "Delivered", paymentMethod: "COD" } },
+                {
+                  $group: {
+                    _id: null,
+                    total: { $sum: "$products.totalPrice" },
+                  },
+                },
+                {
+                  $project: {
+                    _id: 0,
+                    total: 1,
+                  },
+                },
+              ],
+              onlinePaymentTotal: [
+                // Total Online Payment
+                { $unwind: "$products" },
+                { $match: { "products.status": "Delivered", paymentMethod: "onlinePayment"  } },
+                {
+                  $group: {
+                    _id: null,
+                    total: { $sum: "$products.totalPrice" },
+                  },
+                },
+                {
+                  $project: {
+                    _id: 0,
+                    total: 1,
+                  },
+                },
+              ],
+            },
+          },
+        ];
+    
+        const [results] = await Order.aggregate(aggregationPipeline);
+    
+        const total = results.totalSales[0]?.total || 0;
+        const codTotal = results.CODTotal[0]?.total || 0;
+        const onlineTotal = results.onlinePaymentTotal[0]?.total || 0;
+
+        res.render('dashbord', { cat:catData,total,codTotal,onlineTotal })
+    } catch (error) {
+        next(error)
+    }
+}
+//========================================LOAD SALES REPORT============================================================//
+
+const loadSalesReport = async (req,res,next) => {
+    try {
+     
+      const order = await Order.aggregate([
+        { $unwind: "$products" },
+        { $match: { 'products.status': 'Delivered' } },
+        { $sort: { date: -1 } },
+        {
+          $lookup: {
+            from: 'products',
+            let: { productId: { $toObjectId: '$products.productId' } },
+            pipeline: [
+              { $match: { $expr: { $eq: ['$_id', '$$productId'] } } }
+            ],
+            as: 'products.productDetails'
+          }
+        },  
+        {
+          $addFields: {
+            'products.productDetails': { $arrayElemAt: ['$products.productDetails', 0] }
+          }
+        }
+      ]);
+
+      console.log(order);
+  
+      res.render('salesReport',{
+        order
+      })
+    } catch (error) {
+      next(error);
+    }
+  }
+
+  //======================================SALE SORT=================================================================//
+  
+  const salesSort = async(req,res,next) =>{
+    try {
+      const adminData = await User.findById({ _id: req.session.Auser_id });
+      const id = parseInt(req.params.id);
+      const from = new Date();
+      const to = new Date(from.getTime() - id * 24 * 60 * 60 * 1000);
+      
+      const order = await Order.aggregate([
+        { $unwind: "$products" },
+        {$match: {
+          'products.status': 'Delivered',
+          $and: [
+            { 'products.deliveryDate': { $gt: to } },
+            { 'products.deliveryDate': { $lt: from } }
+          ]
+        }},
+        { $sort: { date: -1 } },
+        {
+          $lookup: {
+            from: 'products',
+            let: { productId: { $toObjectId: '$products.productId' } },
+            pipeline: [
+              { $match: { $expr: { $eq: ['$_id', '$$productId'] } } }
+            ],
+            as: 'products.productDetails'
+          }
+        },  
+        {
+          $addFields: {
+            'products.productDetails': { $arrayElemAt: ['$products.productDetails', 0] }
+          }
+        }
+      ]);
+  
+      res.render("salesReport", { order ,admin:adminData });
+     
+    } catch (error) {
+      next(error);
+    }
+  }
+
+
+
+//=======================================DASHBORD SORT BY DATE===========================================================//
+
+
+
+
 
 
 module.exports={
     loadLogin,
     verifyLogin,
-    loadHome,
+    // loadHome,
     loadUserList,
     block,
     unblock,
+    loadDashbord,
+    loadSalesReport,
+    salesSort,
+  
 }

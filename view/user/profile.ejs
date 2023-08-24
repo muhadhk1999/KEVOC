@@ -2,6 +2,7 @@
 <%- include('../layout/userLayouts/nav.ejs') %> 
 
 <section class="user-dashboard">
+  <div>
     <div class="container-lg">
       <div class="row g-3 g-xl-4 tab-wrap">
         <div class="col-lg-4 col-xl-3 sticky" >
@@ -21,7 +22,9 @@
                 <h5><%= userData.name  %></h5>
                 <h6><%= userData.email  %></h6>
 
-                <button class="btn-outline btn-sm">Orders</button>
+                <button><a href="/orders">Your Orders </a></button><br>
+                <button><a href="/address">Your Addresses </a></button>
+
               </div>
             </div>
 
@@ -51,14 +54,14 @@
                     </div>
                   </div>
 
-                  <div class="col-sm-4">
+                  <div class="col-sm-6">
                     <div class="input-box">
                       <label for="mobile">Mobile</label>
                       <input maxlength="10" class="form-control" id="mobile" name="mobile" type="number" value="<%= userData.mobile  %>">
                     </div>
                   </div>
 
-                  <div class="col-sm-4">
+                  <div class="col-sm-6">
                     <div class="input-box">
                       <label for="gender">Gender</label>
                       <select name="gender" id="gender" class="form-control">
@@ -69,14 +72,7 @@
                     </div>
                   </div>
 
-                  <!-- <div class="col-sm-4">
-                    <div class="input-box">
-                      <label for="location">Location</label>
-                      <select name="location" id="location" class="form-control">
-                        <option>India</option>
-                      </select>
-                    </div>
-                  </div> -->
+                 
 
 
                   
@@ -110,7 +106,7 @@
 
       </div>
     </div>
-  
+  </div>
 
 </section>
 

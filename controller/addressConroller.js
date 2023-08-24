@@ -152,8 +152,37 @@ const deleteAddress = async (req,res,next) => {
   }
 }
 
+
+//============================== SHOW ADDRESS IN USER PROFILE =========================================================//
+
+const showAddress = async(req,res,next) =>{
+  try {
+      const session = req.session.user_id
+      const userData = await User.findOne ({_id:req.session.user_id});
+      const addressData = await Address.findOne({userId:req.session.user_id});
+          if(session){
+              if(addressData){
+                  const address = addressData.addresses
+                  res.render('address',{userData:userData,session,address:address})
+
+              }else{
+                  res.render('address',{userData:userData,session})
+              }
+          }else{
+              res.redirect('/home')
+          }
+  } catch (error) {
+      next(error)
+  }
+}
+
+
+
+
+
   module.exports={ 
     addAddress,
     editaddAddress,
-    deleteAddress
+    deleteAddress,
+    showAddress
   }

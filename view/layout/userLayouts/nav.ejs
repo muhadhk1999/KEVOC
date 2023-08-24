@@ -6,34 +6,32 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#primaryMenu" aria-controls="primaryMenu">
                   <span class="navbar-toggler-icon"></span>
                 </button>
-                <a href="/home" class="logo-link">
-                  <!-- <img class="logo logo-dark" src="/userAssets/images/logos/logo.png" >
-                  <img class="logo logo-light" src="/userAssets/images/logos/logo-w.png" > -->
-                </a>
+                
                 <div class="offcanvas offcanvas-collapse order-lg-2" id="primaryMenu">
-                  <div class="offcanvas-header navbar-shadow">
-                    <h5 class="mt-1 mb-0">Menu</h5>
-                    <button class="btn-close lead" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                  </div>
-
-                  <div class="offcanvas-body ">
-                    <!-- Menu-->
-                    <ul class="navbar-nav">
-                      <!-- Home -->
-                      <li class="nav-item dropdown dropdown-mega">
-                        <a class="nav-link dropdown-toggle" href="/">Home</a>
-                      </li>
-
-                      <!-- Shop -->
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="/shop" >Shop</a>
-                        
-                      </li>
-
-                      <!-- Product -->
-                     
-                    </ul>
-                  </div>
+                  
+                  <div class="container">
+                    <div class="offcanvas-body">
+                        <!-- Menu -->
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                          <div class="container-fluid">
+                              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                  <span class="navbar-toggler-icon"></span>
+                              </button>
+                              <div class="collapse navbar-collapse" id="navbarNav">
+                                  <ul class="navbar-nav flex-row">
+                                      <li class="nav-item">
+                                          <a class="nav-link" href="/">Home</a>
+                                      </li>
+                                      <li class="nav-item">
+                                          <a class="nav-link" href="/shop">Shop</a>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </nav>
+                    </div>
+                </div>
+            
                 </div>
               </div>
             </div>
@@ -43,20 +41,7 @@
 
         <!-- Menu Right Start  -->
         <div class="menu-right">
-          <div class="select-menu">
-            <div class="dropdown select-dropdown">
-              <button id="unitSelected"><span>USD</span> <i data-feather="chevron-down"></i></button>
-              <ul class="onhover-show-div">
-                <li class="unit">INR</li>
-              </ul>
-            </div>
-            <div class="dropdown select-dropdown" id="translate">
-              <button id="languageSelected"><span>English</span> <i data-feather="chevron-down"></i></button>
-              <ul class="onhover-show-div">
-                <li class="lang">English</li>
-              </ul>
-            </div>
-          </div>
+          
 
           <!-- Icon Menu Start -->
           <ul class="icon-menu">
@@ -64,16 +49,8 @@
               <button class="search-button"><i data-feather="search"></i></button>
               <!-- Search Input Start -->
               <div class="search-full">
-                <div class="input-group">
-                  <span class="input-group-text">
-                    <i data-feather="search"></i>
-                  </span>
-                  <input type="text" class="form-control search-type" placeholder="Search here..">
-                  <span class="input-group-text close-search">
-                    <i data-feather="x"></i>
-                  </span>
-                </div>
-
+                
+              
                 <!-- Suggestion Start -->
                 <div class="search-suggestion">
                   <ul>
@@ -147,32 +124,24 @@
                   <li><a href="/login">Login</a></li>
                   <li><a href="/registration">Register</a></li>
                   <li><a href="/profile">Your Profile</a></li>
-                  <li><a href="/home">Logout </a></li>
+                  <li><a href="/logout">Logout </a></li>
                 </ul>
               </div>
             </li>
 
             <li>
               <div class="dropdown whislist-dropdown">
-                <a href="javascript:void(0)"><i data-feather="heart"></i> <span class="notification-label">0</span></a>
-                <div class="onhover-show-div">
-                  <a href="wishlist.html"> <img src="/userAssets/icons/svg/box.svg" class="img-fluid" alt="box"> </a>
-                  <div class="content">
-                    <a href="wishlist.html">
-                      <h6>Your wishlist empty !!</h6>
-                      <p>explore more and shortlist items.</p>
-                    </a>
-                  </div>
-                </div>
+                <a href="/wishlist"><i data-feather="heart"></i> <span class=""></span></a>
               </div>
             </li>
 
             <!-- Cart Menu Start -->
             <li>
+             
               <div class="dropdown shopingbag">
                 <a href="/cart" class="cart-button"><i data-feather="shopping-bag"></i>
                 <a href="javascript:void(0)" class="overlay-cart overlay-common"></a>
-                
+                  
               </div>
             </li>
             <!-- Cart Menu End -->
@@ -184,3 +153,21 @@
     </div>
   </header>
   <!-- Header End -->
+
+  <!-- <script>
+    function plzlogin() {
+        $.ajax({
+            success: (response) => {
+                swal.fire({
+                    position: 'top',
+                    title: '! Please Login To Your Account',
+                    showConfirmButton: false,
+                    timer: 1500,
+                    customClass: {
+                        popup: 'my-swal-class',
+                    },
+                });
+            }
+        });
+    }
+</script> -->

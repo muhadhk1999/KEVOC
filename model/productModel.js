@@ -27,6 +27,11 @@ const productSchema= new mongoose.Schema({
         required: true,
         ref: 'Category'
       },
+    offer: {
+        type: mongoose.Schema.Types.ObjectId,
+        required: true,
+        ref: 'offer'
+      },
       
     image:{
         type:Array,
@@ -36,10 +41,11 @@ const productSchema= new mongoose.Schema({
         type:Boolean,
         default:false
     },
+   
     // Status:{
     //     type:Boolean,
     //     default:true
     // }
 })
-
+productSchema.index({ product_title: 'text' });
 module.exports=mongoose.model('product',productSchema);

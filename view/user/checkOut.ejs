@@ -1,121 +1,134 @@
 <%- include('../layout/userLayouts/header.ejs') %>
-<%- include('../layout/userLayouts/nav.ejs') %>
+  <%- include('../layout/userLayouts/nav.ejs') %>
 
-  <!-- Main Start -->
-  <main class="main">
-    <!-- Breadcrumb Start -->
-    <div class="breadcrumb-wrap">
-      <div class="banner">
-        <img class="bg-img bg-top" src="" style="border: 0cqmax;" alt="banner">
+    <!-- Main Start -->
+    <main class="main">
+      <!-- Breadcrumb Start -->
+      <div class="breadcrumb-wrap">
+        <div class="banner">
+          <img class="bg-img bg-top" src="" style="border: 0cqmax;" alt="banner">
 
-        <div class="container-lg">
-          <div class="breadcrumb-box">
-            <div class="heading-box">
-              <h1>Checkout</h1>
+          <div class="container-lg">
+            <div class="breadcrumb-box">
+              <div class="heading-box">
+                <h1>Checkout</h1>
+              </div>
+              <ol class="breadcrumb">
+                <li><a href="/home">Home</a></li>
+                <li>
+                  <a href="javascript:void(0)"><i data-feather="chevron-right"></i></a>
+                </li>
+                <li><a href="/shop">Shop</a></li>
+                <li>
+                  <a href="javascript:void(0)"><i data-feather="chevron-right"></i></a>
+                </li>
+                <li><a href="/cart">Cart</a></li>
+                <li>
+                  <a href="javascript:void(0)"><i data-feather="chevron-right"></i></a>
+                </li>
+                <li class="current"><a href="/checkOut">Checkout</a></li>
+              </ol>
             </div>
-            <ol class="breadcrumb">
-              <li><a href="/home">Home</a></li>
-              <li>
-                <a href="javascript:void(0)"><i data-feather="chevron-right"></i></a>
-              </li>
-              <li><a href="/shop">Shop</a></li>
-              <li>
-                <a href="javascript:void(0)"><i data-feather="chevron-right"></i></a>
-              </li>
-              <li><a href="/cart">Cart</a></li>
-              <li>
-                <a href="javascript:void(0)"><i data-feather="chevron-right"></i></a>
-              </li>
-              <li class="current"><a href="/checkOut">Checkout</a></li>
-            </ol>
           </div>
         </div>
       </div>
-    </div>
-    <!-- Breadcrumb End -->
+      <!-- Breadcrumb End -->
 
-    <!-- Checkout Section Start -->
-    <section class="checkout">
-      <div class="container-lg">
-        <div class="row g-3 g-sm-4 cart">
-          <div class="col-md-7 col-lg-8 col-xl-9">
-            <div class="address-wrap">
-              <div class="title-box2">
-                <h2 class="heading-2">Select Delivery Address</h2>
-              </div>
-
-              <div class="row g-3 g-md-4">
-                <div class="col-12 col-xl-6">
-                  <div class="address-box add-new d-flex flex-column gap-2 align-items-center justify-content-center" data-bs-toggle="modal" data-bs-target="#addNewAddress">
-                    <span class="plus-icon"><i data-feather="plus"></i></span>
-                    <h4 class="theme-color font-xl fw-500">Add New Address</h4>
+      <!-- Checkout Section Start -->
+      <form action="" id="checkoutForm">
+        <section class="checkout">
+          <div class="container-lg">
+            <div class="row g-3 g-sm-4 cart">
+              <div class="col-md-7 col-lg-8 col-xl-9">
+                <div class="address-wrap">
+                  <div class="title-box2">
+                    <h2 class="heading-2">Select Delivery Address</h2>
                   </div>
-                </div>
-                <%
-					if(addresses.length > 0){
-    					addresses.forEach((address) =>{
-													%>
-                <div class="col-12 col-xl-6">
-                  <div class="address-box checked">
-                    <div class="radio-box">
-                      <div>
-                        <input class="radio-input" type="radio" checked="" id="radio1" name="radio1">
-                        <label class="radio-label" for="radio1"><%= address.userId %> </label>
-                        
+
+                  <div class="row g-3 g-md-4">
+                    <div class="col-12 col-xl-6">
+                      <div
+                        class="address-box add-new d-flex flex-column gap-2 align-items-center justify-content-center"
+                        data-bs-toggle="modal" data-bs-target="#addNewAddress">
+                        <span class="plus-icon"><i data-feather="plus"></i></span>
+                        <h4 class="theme-color font-xl fw-500">Add New Address</h4>
                       </div>
-                      <span class="badges badges-pill badges-theme">Home</span>
-                      <div class="option-wrap">
-                        <span class="edit" data-bs-toggle="modal" data-bs-target="#edditAddress<%= address._id %>"><i data-feather="edit"></i></span>
-                        <span class="delet ms-0" data-bs-toggle="modal" data-bs-target="#conformation<%= address._id %>"><i data-feather="trash"></i></span>
-                     
-                        <!-- Edit Address Modal Start -->
-<div class="modal fade addnew-address" id="edditAddress<%= address._id %>" tabindex="-1" aria-labelledby="edditAddressLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="edditAddressLabel">Edit Address</h5>
-        <span class="close-modal" data-bs-dismiss="modal"><i data-feather="x"></i></span>
-      </div>
+                    </div>
+                    <% if(addresses.length> 0){
+                      addresses.forEach((address) =>{
+                      %>
+                      <div class="col-12 col-xl-6">
+                        <div class="address-box checked">
+                          <div class="radio-box">
+                            <div>
+                              <input class="radio-input" type="radio" checked="" id="radio1" name="selectAddress"
+                                value="<%= address.userName %>,<%= address.email %>,<%= address.mobile %>,<%= address.houseName %>,<%= address.city %>,<%= address.pincode %>,<%= address.landmark %>">
+                              <label class="radio-label" for="radio1">
+                                <%= address.userId %>
+                              </label>
 
-      <div class="modal-body full-grid-mobile">
-        <form action="/editAddress/<%= address._id %> " class="custom-form form-pill" method="post">
-          <div class="row g-3 g-md-4">
-            <div class="col-12">
-              <div class="input-box">
-                <label for="name">Full Name</label>
-                <input class="form-control" type="text" required="" name="name" id="name" value="<%= address.userName %>">
-              </div>
-            </div>
+                            </div>
+                            <span class="badges badges-pill badges-theme">Home</span>
+                            <div class="option-wrap">
+                              <span class="edit" data-bs-toggle="modal"
+                                data-bs-target="#edditAddress<%= address._id %>"><i data-feather="edit"></i></span>
+                              <span class="delet ms-0" data-bs-toggle="modal"
+                                data-bs-target="#conformation<%= address._id %>"><i data-feather="trash"></i></span>
 
-            <div class="col-6">
-              <div class="input-box">
-                <label for="email2">Email</label>
-                <input class="form-control" type="email" required="" name="email" id="email2" value="<%= address.email %>">
-              </div>
-            </div>
+                              <!-- Edit Address Modal Start -->
+                              <div class="modal fade addnew-address" id="edditAddress<%= address._id %>" tabindex="-1"
+                                aria-labelledby="edditAddressLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title" id="edditAddressLabel">Edit Address</h5>
+                                      <span class="close-modal" data-bs-dismiss="modal"><i data-feather="x"></i></span>
+                                    </div>
 
-            <div class="col-6">
-              <div class="input-box">
-                <label for="mobile2">Mobile No:</label>
-                <input maxlength="9" class="form-control" type="number" required="" name="mobile" id="mobile2" value="<%= address.mobile %>">
-              </div>
-            </div>
+                                    <div class="modal-body full-grid-mobile">
+                                      <form action="/editAddress/<%= address._id %> " class="custom-form form-pill"
+                                        method="post">
+                                        <div class="row g-3 g-md-4">
+                                          <div class="col-12">
+                                            <div class="input-box">
+                                              <label for="name">Full Name</label>
+                                              <input class="form-control" type="text" required="" name="name" id="name"
+                                                value="<%= address.userName %>">
+                                            </div>
+                                          </div>
 
-            <div class="col-12">
-              <div class="input-box">
-                <label for="address3">House Name</label>
-                <input class="form-control" type="text"  name="housename" value="<%= address.houseName %>">
-              </div>
-            </div>
+                                          <div class="col-6">
+                                            <div class="input-box">
+                                              <label for="email2">Email</label>
+                                              <input class="form-control" type="email" required="" name="email"
+                                                id="email2" value="<%= address.email %>">
+                                            </div>
+                                          </div>
 
-            <!-- <div class="col-12">
+                                          <div class="col-6">
+                                            <div class="input-box">
+                                              <label for="mobile2">Mobile No:</label>
+                                              <input maxlength="9" class="form-control" type="number" required=""
+                                                name="mobile" id="mobile2" value="<%= address.mobile %>">
+                                            </div>
+                                          </div>
+
+                                          <div class="col-12">
+                                            <div class="input-box">
+                                              <label for="address3">House Name</label>
+                                              <input class="form-control" type="text" name="housename"
+                                                value="<%= address.houseName %>">
+                                            </div>
+                                          </div>
+
+                                          <!-- <div class="col-12">
               <div class="input-box">
                 <label for="address4">Address2</label>
                 <input class="form-control" type="text" required="" name="address4" id="address4">
               </div>
             </div> -->
 
-            <!-- <div class="col-6 col-sm-4">
+                                          <!-- <div class="col-6 col-sm-4">
               <div class="input-box">
                 <label for="country">Country</label>
                 <select class="form-select form-control" id="country" name="country">
@@ -134,153 +147,513 @@
               </div>
             </div> -->
 
-            <div class="col-6 col-sm-4">
-              <div class="input-box">
-                <label for="city2">City</label>
-                <input class="form-control" type="text" required="" name="city" id="address3" value="<%= address.city %>">
-              </div>
-            </div>
+                                          <div class="col-6 col-sm-4">
+                                            <div class="input-box">
+                                              <label for="city2">City</label>
+                                              <input class="form-control" type="text" required="" name="city"
+                                                id="address3" value="<%= address.city %>">
+                                            </div>
+                                          </div>
 
-            <div class="col-sm-4">
-              <div class="input-box">
-                <label for="zip">Pin Code</label>
-                <input maxlength="4" class="form-control" type="number" required="" name="pinCode" id="zip" value="<%= address.pincode %>">
-              </div>
+                                          <div class="col-sm-4">
+                                            <div class="input-box">
+                                              <label for="zip">Pin Code</label>
+                                              <input maxlength="4" class="form-control" type="number" required=""
+                                                name="pinCode" id="zip" value="<%= address.pincode %>">
+                                            </div>
+                                          </div>
+                                          <div class="col-12">
+                                            <div class="input-box">
+                                              <label for="address3">Land Mark</label>
+                                              <input class="form-control" type="text" required="" name="landmark"
+                                                id="address3" value="<%= address.landmark %>">
+                                            </div>
+                                          </div>
+                                        </div>
+
+
+                                    </div>
+
+                                    <div class="modal-footer">
+                                      <div class="btn-box">
+                                        <button type="button" class="btn btn-outline rounded-pill"
+                                          data-bs-dismiss="modal" aria-label="Close">Close</button>
+                                        <button type="submit" class="btn btn-solid line-none rounded-pill">Edit
+                                          Address<i class="arrow"></i></button>
+      </form>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+
+      <div class="modal fade action-conform" id="conformation<%= address._id %>" tabindex="-1"
+        aria-labelledby="conformationLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="conformationLabel">Are You Sure ?</h5>
+              <span class="close-modal" data-bs-dismiss="modal"><i data-feather="x"></i></span>
             </div>
-            <div class="col-12">
-              <div class="input-box">
-                <label for="address3">Land Mark</label>
-                <input class="form-control" type="text" required="" name="landmark" id="address3" value="<%= address.landmark %>">
-              </div>
+            <div class="modal-body">
+              <p class="font-md">The permission for the use/group, preview is inherited from the
+                object, object will create a new permission for this object</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline btn-sm" data-bs-dismiss="modal">Close</button>
+              <a href="/deleteConfirm?id=<%= address._id %>" type="button" class="btn btn-solid btn-sm line-none">Remove
+                <i class="arrow"></i></a>
             </div>
           </div>
-          
-        
+        </div>
       </div>
 
-      <div class="modal-footer">
-        <div class="btn-box">
-          <button type="button" class="btn btn-outline rounded-pill" data-bs-dismiss="modal" aria-label="Close">Close</button>
-          <button type="submit" class="btn btn-solid line-none rounded-pill">Edit Address <i class="arrow"></i></button>
-        </form>
+
+      </div>
+      </div>
+      <div class="address-detail">
+        <p class="content-color font-default">
+          <%= address.userName %>
+        </p>
+        <p class="content-color font-default">
+          <%= address.email %>
+        </p>
+        <h3>Address:</h3>
+        <p class="content-color font-default">
+         House Name : <%= address.houseName %>
+        </p>
+        <span class="content-color font-default mt-1">city: <span class="title-color font-default fw-500">
+           City : <%= address.city %>
+          </span></span>
+        <span class="content-color font-default mt-1">landmark: <span class="title-color font-default fw-500">
+           Land Mark : <%= address.landmark %>
+          </span></span>
+        <p class="content-color font-default">
+          <%= address.city %>
+        </p>
+        <p class="content-color font-default">
+         Pin Code : <%= address.pincode %>
+        </p>
+        <span class="content-color font-default">Mobile: <span class="title-color font-default fw-500">
+          Phone Number  <%= address.mobile %>
+          </span></span>
+
+
+      </div>
+      </div>
+
+
+      </div>
+
+      <% }) }else{%>
+        <p class="text-success">Your Delivery Address Will Appear Here. . . . . </p>
+        <% } %>
+
+
           </div>
-      </div>
-    </div>
-  </div>
-</div>
-                     
-<div class="modal fade action-conform" id="conformation<%= address._id %>" tabindex="-1" aria-labelledby="conformationLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="conformationLabel">Are You Sure ?</h5>
-        <span class="close-modal" data-bs-dismiss="modal"><i data-feather="x"></i></span>
-      </div>
-      <div class="modal-body">
-        <p class="font-md">The permission for the use/group, preview is inherited from the object, object will create a new permission for this object</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-outline btn-sm" data-bs-dismiss="modal">Close</button>
-        <a href="/deleteConfirm?id=<%= address._id %>" type="button" class="btn btn-solid btn-sm line-none" >Remove <i class="arrow"></i></a>
-      </div>
-    </div>
-  </div>
-</div>
-                     
-                     
-                        </div>
-                    </div>
-                    <div class="address-detail">
-                        <p class="content-color font-default"><%= address.userName %></p>
-                        <p class="content-color font-default"><%= address.email %></p>
-                        <h4>Address:</h4>
-                        <p class="content-color font-default"><%= address.houseName %></p>
-                        <span class="content-color font-default mt-1">city: <span class="title-color font-default fw-500"> <%= address.city %></span></span>
-                        <span class="content-color font-default mt-1">landmark: <span class="title-color font-default fw-500"> <%= address.landmark %></span></span>
-                        <p class="content-color font-default"><%= address.city %></p>
-                        <p class="content-color font-default"><%= address.pincode %></p>
-                      <span class="content-color font-default">Mobile: <span class="title-color font-default fw-500"> <%= address.mobile %></span></span>
-                     
-                      
-                    </div>
-                  </div>
-
-
-                </div>
-
-                <%
-                        						})
-                      							  }else{%>
-													<p class="text-success">Your Delivery Address Will Appear Here. . . . . </p>
-													<%	 } %>
-
-                
-              </div>
-            </div>
+          </div>
           </div>
 
           <div class="col-md-5 col-lg-4 col-xl-3">
             <div class="summery-wrap">
               <div class="coupon-box">
+                <div>
                 <h5 class="cart-title">Coupon</h5>
                 <div class="text-wrap">
-                  <h4><i data-feather="tag"></i> Apply Coupon</h4>
-                  <a href="javascript:void(0)" class="btn btn-outline btn-sm">Apply</a>
+               
+                  <div
+                        class="address-box add-new d-flex flex-column gap-2 align-items-center justify-content-center"
+                        data-bs-toggle="modal" data-bs-target="#coupon">
+                        <span class="plus-icon"><i data-feather="plus"></i></span>
+                        <h4 class="theme-color font-xl fw-500">View Coupon</h4>
+                      </div>
+                  
+                  </div>
+                  
+                <div class="checkout-discount">
+                  <form action="">
+                    <input type="text" class="form-control" placeholder="Click here to enter your code" required
+                      id="code" name="code">
+                      <br>
+                    <a onclick="applycoupon($('#code').val())" type="Submit" class="btn btn-outline-danger">APPLY
+                      COUPON</a>
+                  </form>
                 </div>
+                
 
-                <p class="content-color font-md mb-0"><a href="login.html" class="theme-color">Login</a> to see best coupon for you</p>
+                <!-- End .checkout-discount -->
+
+
               </div>
-              <div class="cart-wrap grand-total-wrap">
-                <div>
-                  <div class="order-summery-box">
-                    <h5 class="cart-title">Price Details (3 Items)</h5>
-                    <ul class="order-summery">
-                      <li>
-                        <span>Bag total</span>
-                        <span>$220.00</span>
-                      </li>
 
-                      <li>
-                        <span>Bag savings</span>
-                        <span class="theme-color">-$20.00</span>
-                      </li>
 
-                      <li>
-                        <span>Coupon Discount</span>
-                        <a href="javascript:void(0)" class="font-danger">Apply Coupon</a>
-                      </li>
+            </div>
+            <div class="cart-wrap grand-total-wrap">
+              <div>
+                <div class="order-summery-box">
+                  <h5 class="cart-title">Price Details </h5>
+                  <ul class="order-summery">
 
-                      <li>
-                        <span>Delivery</span>
-                        <span>$50.00</span>
-                      </li>
 
-                      <li class="pb-0">
-                        <span>Total Amount</span>
-                        <span>$270.00</span>
-                      </li>
-                    </ul>
-                    <div class="row g-3 mt-2">
-                      <div class="col-6 col-md-12">
-                        <a href="/payment" class="btn-solid checkout-btn">Proceed To Pay <i class="arrow"></i></a>
-                      </div>
-                      <div class="col-6 col-md-12">
-                        <a href="/shop" class="btn-outline w-100 justify-content-center checkout-btn"> Back To Shop </a>
-                      </div>
+                    <li>
+                      <span> Wallet :</span>
+                      <span>₹ <%= userData.wallet  %>.00</span>
+                    </li>
+                    <li>
+                      <span> Discount :</span>
+                       <span >₹ 0.00</span>
+                    </li>
+
+                    <li>
+                      <span>Free Delivery :</span>
+                      <span>₹ 00.00</span>
+                    </li>
+                    <li>
+                      <span>Sub Total :   </span>
+                      <span>₹<%= totalAmount %></span>
+                    </li>
+
+                    <li class="pb-0">
+
+                      <span>Total Amount   </span>
+                      ₹<span id="gt4"><%= totalAmount %></span>
+                    </li>
+                  </ul><br>
+                  <div>
+                    <input class="form-check-input my-1" type="radio" name="payment" id="flexRadioDefault2"
+                      value="Wallet">
+                    <label class="form-check-label" for="flexRadioDefault2">
+                      WALLET
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="payment" id="flexRadioDefault3"
+                      value="onlinePayment">
+                    <label class="form-check-label" for="flexRadioDefault3">
+                      RAZOR PAY
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="payment" id="flexRadioDefault3" value="COD">
+                    <label class="form-check-label" for="flexRadioDefault3">
+                      CASH ON DELIVERY
+                    </label>
+                  </div>
+                  <div class="row g-3 mt-2">
+                    <div class="col-6 col-md-12">
+                      <button type="submit" class="btn-solid checkout-btn">Proceed To Pay <i class="arrow"></i></button>
+                    </div>
+                    <div class="col-6 col-md-12">
+                      <a href="/shop" class="btn-outline w-100 justify-content-center checkout-btn"> Back To Shop
+                      </a>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+          </div>
+          </div>
+          </div>
+          </section>
+
+          <div class="modal fade addnew-address" id="coupon" tabindex="-1" aria-labelledby="addNewAddressLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="addNewAddressLabel">COUPON</h5>
+        <span class="close-modal" data-bs-dismiss="modal"><i data-feather="x"></i></span>
       </div>
-    </section>
-    <!-- Checkout Section End -->
-  </main>
-  <!-- Main End -->
+
+      <div class="modal-body full-grid-mobile">
+        <div class="modal-body">
+
+          <% if(coupons .length> 0){
+            coupons.forEach((coupon) => { %>
+
+
+
+            <div class="container my-5">
+              <div class="d-flex column">
+                <div class="col-lg-12">
+                  <div class="coupon p-3 bg-white">
+                    <div class="row no-gutters">
+                      <div class="col-lg-4 border-right d-flex flex-column justify-content-center">
+                        <div class="d-flex flex-column align-items-center ">
+                          <img src="/adminAssets/adminImages/kevoc" style="width: 100px;">
+                        </div>
+                      </div>
+                      <div class="col-lg-8">
+                        <div>
+                          <div class="d-flex flex-row justify-content-end off">
+                            <h2>
+                              <%= coupon.discountPercentage %>%
+                            </h2>
+                            <span>OFF</span>
+                          </div>
+                          <div class="d-flex flex-row justify-content-between off px-3 p-2">
+                            <span>Promo code:</span>
+                            <a onclick="copyCode('<%= coupon.couponCode %>')"><span
+                                class="border border-success px-3 rounded code">
+                                <%= coupon.couponCode %> | COPY
+                              </span></a>
+                          </div>
+                          <div class="d-flex flex-row justify-content-between off px-3 p-2">
+                            <span>Purchase Above</span>
+                            <span class=" px-3">
+                              <%= coupon.criteria %> Rupees
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <% }) } %>
+
+              <button type="button" class="btn btn-dark  m-5	" data-bs-dismiss="modal"
+                aria-label="Close">Cancel</button>
+        </div>
+          
+          
+      
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+          </form>
+          <!-- Checkout Section End -->
+    </main>
+
+    <style>
+      .coupon {
+        border-radius: 12px;
+        box-shadow: 5px 8px 10px #000000c0;
+        max-width: 535px;
+      }
+
+      .code:hover {
+        background: green;
+        color: #fff;
+        cursor: pointer
+      }
+    </style>
+
+    <!-- Main End -->
+
+    <script>
+      $("#checkoutForm").submit((e) => {
+
+        const amount = document.getElementById("gt4").innerHTML;
+        let address = $("input[name=selectAddress]:checked").val();
+        let payment = $("input[name=payment]:checked").val();
+
+        e.preventDefault()
+        $.ajax({
+          url: "/placeOrder",
+          method: "post",
+          data: {
+            amount: amount,
+            address: address,
+            payment: payment
+          },
+          success: (response) => {
+            if (response.codSuccess == true) {
+              swal.fire({
+                positon: 'center',
+                icon: "success",
+                title: 'Order Placed Successfully',
+                showConfirmButton: false,
+                showCancelButton: true,
+                cancelButtonText: "Your Orders",
+              }).then((result) => {
+                if (result.dismiss === swal.DismissReason.cancel) {
+                  // Redirect to the shop page
+                  window.location.href = "/orders";
+                }
+              });
+            } else if (response.walletFailed == true) {
+              swal.fire({
+                positon: 'center',
+                icon: "error",
+                title: 'Insufficient Balance In Your Wallet',
+                showConfirmButton: false,
+                showCancelButton: false,
+                timer: 1500
+              })
+            }
+            else {
+              razorpayPayment(response.order);
+            }
+          }
+
+        })
+      })
+
+      // COPY COUPON CODE
+
+      function copyCode(code) {
+        navigator.clipboard.writeText(code)
+          .then(function () {
+            alert('Coupon code copied to clipboard!');
+          })
+          .catch(function () {
+            alert('Failed to copy coupon code.');
+          });
+      }
+
+      // COUPON APPLY
+
+      function applycoupon(code) {
+
+        event.preventDefault();
+        const amount = document.getElementById('gt4').innerHTML;
+        $.ajax({
+          url: "/applyCoupon",
+          data: {
+            code: code,
+            amount: amount
+          },
+          method: "post",
+          success: (response) => {
+            if (response.user) {
+              Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'This coupon already used!'
+              })
+            } else if (response.date) {
+              console.log("coupon date expired");
+              Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'date expired!!!'
+              })
+            } else if (response.amountOkey) {
+              document.getElementById('discount').innerHTML = response.disAmount
+              document.getElementById('gt4').innerHTML = response.disTotal
+              Swal.fire({
+                position: 'center',
+                icon: 'success',
+                title: 'Discount redeemed',
+                showConfirmButton: false,
+                timer: 1500
+              })
+            } else if (response.invalid) {
+              Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'Invalid Coupon!!!'
+              })
+            } else if (response.notEligible) {
+              Swal.fire({
+                icon: 'error',
+                title: 'You Are Not Eligible For This Coupon'
+              })
+            }
+          }
+        })
+      }
+
+      function plzAddAddress() {
+        $.ajax({
+          success: (response) => {
+
+            swal.fire({
+              positon: 'center',
+              icon: "warning",
+              title: 'Please Add Address ',
+              showConfirmButton: false,
+              timer: 1500,
+            })
+
+          }
+        })
+      } 
+
+
+      //RAZORPAY
+
+function razorpayPayment(order){
+	
+	var options = {
+    "key": "rzp_test_sRPKClA5QmzUIb", 
+    "amount": order.amount, 
+    "currency": "INR",
+    "name": "KeVoC",
+    "description": "Test Transaction",
+    "image": "https://example.com/your_logo",
+    "order_id": order.id, //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
+    "handler": function(response) {
+       verifyPayment(response,order);
+    },
+    "prefill": { //We recommend using the prefill parameter to auto-fill customer's contact information especially their phone number
+        "name": "Gaurav Kumar", //your customer's name
+        "email": "gaurav.kumar@example.com",
+        "contact": "9000090000" //Provide the customer's phone number for better conversion rates 
+    },
+    "notes": {
+        "address": "Razorpay Corporate Office"
+    },
+    "theme": {
+        "color": "#3399cc"
+    }
+};
+var rzp1 = new Razorpay(options);
+    rzp1.open(); 
+}
+
+// VERIFY RAZORPAY
+
+function verifyPayment(payment,order){
+	const amount2 =document.getElementById("gt4").innerHTML;
+	$.ajax({
+		url:"/verifyPayment",
+		method :"post",
+		data:{
+			payment:payment,
+			amount2:amount2,
+			order:order
+		},
+		success:(response) =>{
+			if(response.success){
+				swal.fire({
+					positon:'center',
+					icon:"success",
+					title:"Your Order Placed Successfully",
+					showConfirmButton:false,
+					showCancelButton:true,
+					cancelButtonText:"Back To Orders",
+
+				}).then((result)=>{
+					if(result.dismiss === swal.DismissReason.cancel){
+						window.location.href = "/orders";
+					}
+				});
+			}else{
+				swal.fire({
+            positon: 'center',
+            icon: "error",
+            title: 'payment failed',
+            showConfirmButton: false,
+            timer:1500,
+        })
+			}
+			
+		}
+	})
+}
 
 
 
 
-<%- include('../layout/userLayouts/footer.ejs') %>
+    </script>
+
+
+    <%- include('../layout/userLayouts/footer.ejs') %>

@@ -29,6 +29,14 @@ const Userschema = new mongoose.Schema({
     is_block:{
         type:Boolean,
         default:false
+    },
+    coupon:{
+        type:String,
+        default:''
+    },
+    wallet:{
+        type:Number,
+        default:0
     }
 })
 

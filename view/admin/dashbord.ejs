@@ -1,0 +1,93 @@
+<%- include('../layout/adminLayouts/header.ejs') %>
+    <%- include('../layout/adminLayouts/sideBar.ejs') %>
+
+    <div class="page-body">
+        <!-- Container-fluid starts-->
+        <div class="container-fluid">
+            <div class="page-header">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="page-header-left">
+                            <h3>Dashboard
+                                <small>KeVoC Admin panel</small>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <ol class="breadcrumb pull-right">
+                            <li class="breadcrumb-item">
+                                <a href="dashbord">
+                                    <i data-feather="home"></i>
+                                </a>
+                            </li>
+                            <li class="breadcrumb-item active"></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Container-fluid Ends-->
+
+        <!-- Container-fluid starts-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-8 col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5> Total Sale</h5>
+                            
+                        </div>
+                       
+                        <div class="card-body sell-graph">
+                            <canvas id="myGraph"></canvas>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </div>
+        <!-- Container-fluid Ends-->
+    </div>
+    <!-- EJS Template -->
+
+
+<!-- The rest of your EJS code -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+      // Sample data for Sales Summary chart
+      const salesData = {
+        labels: ['WALLET',' COD ',' ONLINE-PAYMENT '], // Sample months
+        datasets: [
+          {
+            label: 'Sales',
+            data: ['<%= total %>','<%= codTotal %>','<%= onlineTotal %>'], // Sample sales data
+            backgroundColor: 'rgba(75, 192, 192, 0.2)',
+            borderColor: 'rgba(75, 192, 192, 1)',
+            borderWidth: 1,
+          },
+        ],
+      };
+    
+      // Get the canvas element for the chart
+      const salesChartCanvas = document.getElementById('myGraph');
+    
+      // Create the chart using Chart.js
+      const salesChart = new Chart(salesChartCanvas, {
+        type: 'bar', // or 'line' for line chart
+        data: salesData,
+        options: {
+          scales: {
+            y: {
+              beginAtZero: true,
+            },
+          },
+        },
+      });
+    </script>
+    
+
+
+       
+
+            <%- include('../layout/adminLayouts/footer.ejs') %>

@@ -1,0 +1,100 @@
+<%- include('../layout/userLayouts/header.ejs') %> 
+<%- include('../layout/userLayouts/nav.ejs') %> 
+
+
+
+<!-- Main Start -->
+<main class="main">
+    <!-- Breadcrumb Start -->
+    <div class="breadcrumb-wrap">
+      <div class="banner">
+        <img class="bg-img bg-top" src="../assets/images/inner-page/banner-p.jpg" alt="banner">
+
+        <div class="container-lg">
+          <div class="breadcrumb-box">
+            <div class="heading-box">
+              <h1>ADDRESSES</h1>
+            </div>
+            <ol class="breadcrumb">
+              <li><a href="home">Home</a></li>
+              <li>
+                <a href="javascript:void(0)"><i data-feather="chevron-right"></i></a>
+              </li>
+              
+              <li><a href="profile">Your Profile</a></li>
+              <li>
+                <a href="javascript:void(0)"><i data-feather="chevron-right"></i></a>
+              </li>
+              <li class="current"><a href="address">Your Addresses</a></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Breadcrumb End -->
+
+    <!-- Checkout Section Start -->
+    <section class="checkout">
+      <div class="container-lg">
+        <div class="row g-3 g-sm-4 cart">
+          <div class="col-md-7 col-lg-8 col-xl-9">
+            <div class="address-wrap">
+              <div class="title-box2">
+                <h2 class="heading-2"></h2>
+              </div>
+
+              <div class="row g-3 g-md-4">
+                <%
+               if(address.length > 0){
+                   address.forEach((address) =>{
+                    %>
+
+                <div class="col-12 col-xl-6">
+                  <div class="address-box">
+                    <div class="radio-box">
+                      <div>
+                        <input class="radio-input" type="radio" id="radio2" name="radio1">
+                        <label class="radio-label" for="radio2"><%= address.userName %></label>
+                      </div>
+                      <span class="badges badges-pill badges-theme">Office</span>
+                      <div class="option-wrap">
+                        
+                      </div>
+                    </div>
+                    <div class="address-detail">
+                      <p class="content-color font-default">Mobile Number : <%= address.mobile %></p>
+                      <p class="content-color font-default">House Name :  <%= address.houseName %></p>
+                      <span class="content-color font-default">City <%= address.city %> <span class="title-color font-default fw-500"> 454-254-3654</span></span>
+                      <span class="content-color font-default mt-1">Pin Code : <%= address.pincode %> <span class="title-color font-default fw-500"> 5 March</span></span>
+                      <span class="content-color font-default mt-1">Land Mark : <%= address.landmark %><span class="title-color font-default fw-500">Not Available</span></span>
+                    </div>
+                  </div>
+                </div>
+                <%
+                        						})
+                      							  }
+                            					%>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-5 col-lg-4 col-xl-3">
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Checkout Section End -->
+  </main>
+  <!-- Main End -->
+
+
+
+
+
+
+
+
+
+
+<%- include('../layout/userLayouts/footer.ejs') %> 

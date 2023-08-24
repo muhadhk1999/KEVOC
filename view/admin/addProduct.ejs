@@ -37,14 +37,62 @@
                                 <div class="card-body">
                                     <div class="row product-adding">
 
-
-
-
-                                        <div class="card-body">
+                                          <form action="/admin/search" method="post">
+                                            <div class="container">
+                                              <div class="row">
+                                                <div class="col-3">
+                                                  <div class="header-search-wrapper search-wrapper-wide">
+                                                    <label for="q" class="sr-only">Search</label>
+                                                    <div class="input-group " >
+                                                      <input type="search" class="form-control " name="search" id="q" placeholder="Search product..." required >
+                                                      <button class="btn btn-primary" type="submit"><i class="icon-search"></i><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                                                      </svg></button>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </form>
+                                          <br>
+                                          <br>
+                                          <br>
+                                    
+                                          <div class="dropdown mx-4">
+                                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                              Sort by Price
+                                            </button>
+                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                                <li><a href="/admin/priceSort/<%= 1 %>">Price Low To High</a></li>
+                                                <br>
+                                                <li><a href="/admin/priceSort/<%= -1 %>">High Low To low</a></li>
+                                            </ul>
+                                          </div>
+                                          <br>
+                                          <!-- <div class="dropdown mx-4">
+                                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                              Sort by Price
+                                            </button>
+                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                                
+                                                                                                                                                                                                                                 
+                                                    
+                                                    <li>
+                      
+                                                    
+                                                      <a class=""  href="/admin/filterCategory/</a>
+                                                     </li>
+                                                 
+                                            </ul>
+                                          </div> -->
+                                         
+                                            <div class="card-body">
                                             <div class="d-flex justify-content-between">
+                                                
                                             <h4 class="card-title">Product List</h4><a type="button" class="btn btn-outline-success" style="margin-top: 10px;margin-left: 10px;margin-bottom: 10px;" data-bs-toggle="modal" data-bs-target="#addProduct">
                                                 ADD PRODUCT
                                               </a>
+                                              
                                             </div>
                                             <div class="table-responsive">
                                               <table class="table table-hover">
@@ -54,33 +102,34 @@
                                                     <th>Image</th>
                                                     <th>Product Name</th>
                                                     <th>Price</th>
-                                                    <th>Offer</th>
-                                                    <th>Brand</th>
+                                                    <th>Offer <br> Amount</th>
                                                     <th>Category</th>
                                                     <th>Stock</th>
                                                     <th>Action</th>
                                                   </tr>
                                                 </thead>
                                                 <tbody>
-                                                    <% if(products.length > 0){ %>
-                                                       <% products.forEach((product,i)=>{ %>
-
-                                                       
-                                                    <tr>
+                                            <% if(products.length > 0){ %>
+                                                 <% products.forEach((product,i)=>{ %>
+                                                     <tr>
                                                         <td><%= i+1  %></td>
                                                         <td>
                                                             <img style="width: 100px; height: 100px;" src="/adminAssets/adminImages/<%= product.image[0] %>" alt="image" />
 
                                                         </td>
                                                         <td><%=product.product_title  %></td>
-                                                        <td><%=product.product_price  %></td>
-                                                        <td>off</td>
-                                                        <td>brabd</td>
+                                                        <% if(product.offer){ %>
+                                                        <td>
+                                                            <del class="text-danger"> <p><%=product.product_price %></p></del>
+                                                           <p> <%=product.product_price -  product.offer.offPrice %> </p></td> 
+                                                       
+                                                        <td><%= product.offer.offPrice  %> </td>
+                                                        <% }else{  %>
+                                                            <td><%=product.product_price  %></td>
 
+                                                        <td></td>
+                                                     <%  }  %>
                                                         <td><%=product.category.category_name  %></td>
-
-                                                        
-
                                                         <td><%=product.StockQuantity  %>
                                                         </td>
 
@@ -94,7 +143,6 @@
             
                                                             <%}%>
                                                         <td><a class="btn btn-success" href="/admin/editProduct/<%= product._id%>">Edit</a></td>
-                                                      
                                                     </tr>
                                                 <% }) %>
                                                <%  } %>
@@ -180,6 +228,23 @@
                                                             </select>
                                                         </div>
                                                         </div>
+                                                        <div class="form-group row">
+                                                            <label for="exampleFormControlSelect1"
+                                                                class="col-xl-3 col-sm-4 mb-0">offer Amount :</label>
+
+                                                        <div class="col-xl-8 col-sm-7">
+                                                            <select class="form-control digits"id="exampleFormControlSelect1" name="offer">
+
+                                                               <%  offer.forEach((off)=>{ %>
+                                                                     
+                                                                <option value="<%= off._id  %>"><%= off.offerName  %></option>
+                                                               <% })%>
+                                                               
+                                                             
+                                                             
+                                                            </select>
+                                                        </div>
+                                                        </div>
                                                     
                                                     <div class="form-group row">
                                                         <label class="col-xl-3 col-sm-4 mb-0">Quantity  :</label>
@@ -222,7 +287,7 @@
                                               </div>
                                             </div>
                                             </div>
-
+                                                    
 
 
 

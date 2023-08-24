@@ -1,0 +1,126 @@
+<%- include('../layout/adminLayouts/header.ejs') %>
+<%- include('../layout/adminLayouts/sidebar.ejs') %>
+
+<div class="page-body">
+    <!-- Container-fluid starts-->
+    <div class="container-fluid">
+        <div class="page-header">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="page-header-left">
+                        <h3>Product Offer 
+                            <small>KeVoC Admin panel</small>
+                        </h3>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <ol class="breadcrumb pull-right">
+                        <li class="breadcrumb-item">
+                            <a href="/admin/home">
+                                <i data-feather="home"></i>
+                            </a>
+                        </li>
+                        <li class="breadcrumb-item">Product Offer </li>
+                        
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#exampleModal">
+        ADD OFFER
+      </button><br><br>
+
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Offer Name</th>
+            <th scope="col">offer Price</th>
+            <th scope="col">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% if (offer.length > 0) {
+            offer.forEach((off, i) => { %>
+            <tr>
+              <th scope="row"><%= i + 1 %></th>
+              <td><%= off.offerName %></td>
+              <td><%= off.offPrice %></td>
+              <td>
+                <% if (off.is_delete == true) { %>
+                  <a class="btn btn-success" href="/admin/listOffer?id=<%= off._id %>">list</a>
+                <% } else { %>
+                  <a class="btn btn-danger" href="/admin/unlistOffer?id=<%= off._id %>">unlist</a>
+                <% } %>
+                <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#editOfferModal-<%= off._id %>">EDIT</button>
+              </td>
+            </tr>
+            <!-- EDIT modal content -->
+            <div class="modal fade" id="editOfferModal-<%= off._id %>" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Edit Offer</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <form action="/admin/editOffer/<%= off._id %>" method="post">
+                      <div class="mb-3">
+                        <label class="form-label">Offer Name</label>
+                        <input type="text" class="form-control" name="offName" value="<%= off.offerName %>">
+                      </div>
+                      <div class="mb-3">
+                        <label class="form-label">Offer Price</label>
+                        <input type="number" class="form-control" name="offPrice" value="<%= off.offPrice %>">
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary">Save changes</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <% }) %>
+          <% } else { %>
+            <tr>
+              <td colspan="4">
+                <h4 class="d-flex justify-content-center my-5 text-danger">NO COUPONS AVAILABLE</h4>
+              </td>
+            </tr>
+          <% } %>
+        </tbody>
+    </table>
+</div>
+
+<!-- ADD OFFER Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Add Offer</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form action="/admin/addOffer" method="post">
+          <div class="mb-3">
+            <label class="form-label">Offer Name</label>
+            <input type="text" class="form-control" name="offName">
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Offer Price</label>
+            <input type="number" class="form-control" name="offPrice">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="submit" class="btn btn-primary">Save changes</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<%- include('../layout/adminLayouts/footer.ejs') %>

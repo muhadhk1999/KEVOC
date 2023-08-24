@@ -1,0 +1,90 @@
+<%- include('../layout/adminLayouts/header.ejs') %>
+<%- include('../layout/adminLayouts/sideBar.ejs') %>
+
+
+<div class="page-body">
+  <!-- Container-fluid starts-->
+  <div class="container-fluid">
+      <div class="page-header">
+          <div class="row">
+              <div class="col-lg-6">
+                  <div class="page-header-left">
+                      <h3>Orders
+                          <small>KeVoC Admin panel</small>
+                      </h3>
+                  </div>
+              </div>
+              <div class="col-lg-6">
+                  <ol class="breadcrumb pull-right">
+                      <li class="breadcrumb-item">
+                          <a href="/home">
+                              <i data-feather="home"></i>
+                          </a>
+                      </li>
+                      <li class="breadcrumb-item">Physical</li>
+                      <li class="breadcrumb-item active">Category</li>
+                  </ol>
+              </div>
+          </div>
+      </div>
+  </div>
+<div class="main-panel"> 
+    <div class="content-wrapper">
+      <div class="row">
+        <div class="col-lg-12 grid-margin stretch-card">
+          <div class="card">
+  
+        <div class="card-body">
+          <h4 class="card-title">ORDERS</h4>
+          <div class="table-responsive">
+            <table class="table table">
+              <thead>
+                <tr>
+                  <th>No</th>
+                  <th>User</th>
+                  <th>Order ID</th>
+                  <th>Payment Method</th>
+                  <th>Total Amt</th>
+                  <th>Date</th>
+                  <th>Status</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody>
+                  <% if(orders.length > 0){
+                      orders.forEach((order,i)=>{
+                        %>
+                       
+                    <tr>
+                      
+                      <td><%= i+1 %></td>
+                      <td><%= order.userName%></td>
+                      <td><%= order._id%></td>
+                      <td><%= order.paymentMethod%></td>
+                      <td><%= order.totalAmount%></td>
+                      <td><%= order.date.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: '2-digit' }).replace(/\//g, '-') %></td>
+                      <td><%= order.status%></td>
+                      <td><a href="detailedOrder/<%= order._id %>"><button class="btn btn-outline-info" href=""><i class="mdi mdi-file-check btn-icon-prepend"></i>View</button></a></td>
+                    </tr>
+                 
+                    <%})
+                  }else{ %>
+                            <h1 class="d-flex justify-content-center">You Have No Orders</h1>
+                    <% } %>
+               
+              </tbody>
+            </table>
+          </div>
+        </div>
+        </div>
+        </div>
+  
+  
+  
+  
+      </div>
+    </div>
+  </div> 
+
+
+  <%- include('../layout/adminLayouts/footer.ejs') %>

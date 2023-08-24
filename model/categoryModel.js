@@ -8,7 +8,12 @@ const categorySchema= new mongoose.Schema({
     is_delete:{
         type:Boolean,
         default:false
-    }
+    },
+    offer: {
+        type: mongoose.Schema.Types.ObjectId,
+        required: true,
+        ref: 'offer'
+      },
 })
 
 

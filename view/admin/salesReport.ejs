@@ -1,0 +1,132 @@
+<%- include('../layout/adminLayouts/header.ejs') %>
+<%- include('../layout/adminLayouts/sidebar.ejs') %>
+ 
+
+<div class="page-body">
+    <!-- Container-fluid starts-->
+    <div class="container-fluid">
+        <div class="page-header">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="page-header-left">
+                        <h3>Sales Report
+                            <small>KeVoC Admin panel</small>
+                        </h3>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <ol class="breadcrumb pull-right">
+                        <li class="breadcrumb-item">
+                            <a href="home">
+                                <i data-feather="home"></i>
+                            </a>
+                        </li>
+                        <li class="breadcrumb-item active"></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <div class="d-flex justify-content-between">
+                <h4 >SALES REPORT</h4>
+                <div class="d-flex justify-content-end">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                          Sort By
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li>  <a class="dropdown-item" href="/admin/salesSort/<%= 1 %>">Daily</a></li>
+                          <li>  <a class="dropdown-item" href="/admin/salesSort/<%= 7 %>">Weekly</a></li>
+                          <li>  <a class="dropdown-item" href="/admin/salesSort/<%= 30 %>">Monthly</a></li>
+                          <li>  <a class="dropdown-item" href="/admin/salesReport">All Reports</a></li>
+                        </ul>
+                     </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="col-lg-12 grid-margin stretch-card">
+        <div class="card">              
+            <div class="card-body">
+                <div class="table-responsive">
+                  <table class="table table-hover" id="salesReport">
+                    <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Date</th>
+                        <th>Product Name</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Payment Method</th>
+                        <th>Total Amount</th>
+                        <th>STATUS</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+            <% order.forEach((item,i) => { %>
+               
+                    <tr>
+                        <td><%= i+1 %></td>
+                        <td><%= item.products.deliveryDate.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: '2-digit' }).replace(/\//g, '-') %></td>
+                        <td><%= item.products.productDetails.product_title %></td>
+                        <td><%= item.products.count %></td>
+                        <td><%= item.products.productPrice %></td>
+                        <td><%= item.paymentMethod %></td>
+                        <td><%= item.products.totalPrice %></td>
+                        <td><%= item.products.status %></td>
+                        
+                    </tr>                        
+           <% }) %>                                         
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
+<style>
+    .dt-button.buttons-excel,
+    .dt-button.buttons-csv,
+    .dt-button.buttons-pdf {
+      background-color: #4c7aaf;
+      color: white;
+      border-radius: 5px;
+      border: none;
+      margin: 10px;
+      padding-left: 30px;
+      padding-right: 30px;
+      height: 30px;
+    }
+  </style>
+
+
+<script>
+    $(document).ready(function () {
+      $('#salesReport').DataTable({
+        dom: 'Bfrtip',
+        buttons: [
+           'excel', 'pdf','csv'
+        ]
+      });
+    });
+  </script>
+
+
+
+
+
+
+
+<%- include('../layout/adminLayouts/footer.ejs') %>

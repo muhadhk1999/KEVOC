@@ -3,7 +3,7 @@
 
 <main class="main">
     
-
+ 
     <!-- Shop Top Filter Section Start -->
     <section class="shop-page">
       <div class="container-lg">
@@ -13,203 +13,35 @@
               <div class="col-12">
                 <div class="shop-product">
                   <div class="filter-top-wrapper">
-                    <span class="filter-top-back">Filter By: <i data-feather="x"></i> </span>
+                    <span class="filter-top-back">Filter: <i data-feather="x"></i> </span>
+                    
                     <div class="filter-option-wrapper">
+                      
                       <ul class="filterlist">
                         <li class="filter-items">
                           <div class="select-menu">
-                            <!-- <div class="dropdown select-dropdown">
-                              <button>Color <span class="notification">3</span> <i data-feather="chevron-down"></i></button>
-                              <div class="onhover-show-div">
-                                <ul class="filter-color color-filter-check">
-                                  <li>
-                                    <label class="checkboxes style-1">
-                                      <input type="checkbox" checked="">
-                                      <span class="checkbox__checkmark bg-theme-pink"></span>
-                                    </label>
-                                  </li>
-                                  <li>
-                                    <label class="checkboxes style-1">
-                                      <input type="checkbox">
-                                      <span class="checkbox__checkmark bg-theme-yellow"></span>
-                                    </label>
-                                  </li>
-                                  <li>
-                                    <label class="checkboxes style-1">
-                                      <input type="checkbox">
-                                      <span class="checkbox__checkmark bg-theme-orange"></span>
-                                    </label>
-                                  </li>
-                                  <li>
-                                    <label class="checkboxes style-1">
-                                      <input type="checkbox">
-                                      <span class="checkbox__checkmark bg-theme-blue"></span>
-                                    </label>
-                                  </li>
-                                </ul>
-                              </div>
-                            </div> -->
-
-                            <!-- <div class="dropdown select-dropdown">
+                            
+                            <a href="/shop">Clean All</a>
+                           
+                            <div class="dropdown select-dropdown">
                               <button>Price <i data-feather="chevron-down"></i></button>
-                              <div class="onhover-show-div price">
-                                <div class="range-slider">
-                                  <div class="price-input">
-                                    <div class="field">
-                                      <span>Min <strong class="theme-color"> $</strong></span>
-                                      <input class="form-control input-min" type="number" value="2500">
-                                    </div>
-                                    <div class="separator">-</div>
-                                    <div class="field">
-                                      <span>Max <strong class="theme-color"> $</strong></span>
-                                      <input class="form-control input-max" type="number" value="7500">
-                                    </div>
-                                  </div>
-                                  <div class="slider">
-                                    <div class="progress"></div>
-                                  </div>
-                                  <div class="range-input">
-                                    <input type="range" class="range-min" min="0" max="10000" value="2500" step="100">
-                                    <input type="range" class="range-max" min="0" max="10000" value="7500" step="100">
-                                  </div>
-                                </div>
-                              </div>
-                            </div> -->
-
-                            <!-- <div class="dropdown select-dropdown">
-                              <button>Size <i data-feather="chevron-down"></i></button>
                               <div class="onhover-show-div size">
                                 <div class="filter-content">
                                   <ul class="filter-check">
                                     <li>
-                                      <label class="checkboxes style-1">
-                                        <input type="checkbox" checked="">
-                                        <span class="checkbox__checkmark"></span>
-                                        <span class="checkbox__body">Small <span>18</span></span>
-                                      </label>
+                                      <li><a href="/priceSort/<%= 1 %>"> Low To High</a></li>
+                                      <li><a href="/priceSort/<%= -1 %>">High To low</a></li>
                                     </li>
-                                    <li>
-                                      <label class="checkboxes style-1">
-                                        <input type="checkbox">
-                                        <span class="checkbox__checkmark"></span>
-                                        <span class="checkbox__body">Medium <span>22</span></span>
-                                      </label>
-                                    </li>
-                                    <li>
-                                      <label class="checkboxes style-1">
-                                        <input type="checkbox">
-                                        <span class="checkbox__checkmark"></span>
-                                        <span class="checkbox__body">Large <span>32</span></span>
-                                      </label>
-                                    </li>
-                                    <li>
-                                      <label class="checkboxes style-1">
-                                        <input type="checkbox">
-                                        <span class="checkbox__checkmark"></span>
-                                        <span class="checkbox__body">Extra Large <span>12</span></span>
-                                      </label>
-                                    </li>
+                                   
                                   </ul>
                                 </div>
                               </div>
-                            </div> -->
+                            </div>
 
-                            <!-- <div class="dropdown select-dropdown">
-                              <button>Product Type <i data-feather="chevron-down"></i></button>
-                              <div class="onhover-show-div size">
-                                <div class="filter-content">
-                                  <ul class="filter-check">
-                                    <li>
-                                      <label class="checkboxes style-1">
-                                        <input type="checkbox" checked="">
-                                        <span class="checkbox__checkmark"></span>
-                                        <span class="checkbox__body">Accessories <span>18</span></span>
-                                      </label>
-                                    </li>
-                                    <li>
-                                      <label class="checkboxes style-1">
-                                        <input type="checkbox">
-                                        <span class="checkbox__checkmark"></span>
-                                        <span class="checkbox__body">Bag <span>12</span></span>
-                                      </label>
-                                    </li>
-                                    <li>
-                                      <label class="checkboxes style-1">
-                                        <input type="checkbox">
-                                        <span class="checkbox__checkmark"></span>
-                                        <span class="checkbox__body">Dress <span>12</span></span>
-                                      </label>
-                                    </li>
-                                    <li>
-                                      <label class="checkboxes style-1">
-                                        <input type="checkbox">
-                                        <span class="checkbox__checkmark"></span>
-                                        <span class="checkbox__body">Jacket <span>12</span></span>
-                                      </label>
-                                    </li>
-                                    <li>
-                                      <label class="checkboxes style-1">
-                                        <input type="checkbox">
-                                        <span class="checkbox__checkmark"></span>
-                                        <span class="checkbox__body">Jeans <span>22</span></span>
-                                      </label>
-                                    </li>
-                                    <li>
-                                      <label class="checkboxes style-1">
-                                        <input type="checkbox">
-                                        <span class="checkbox__checkmark"></span>
-                                        <span class="checkbox__body">T-Shirt <span>32</span></span>
-                                      </label>
-                                    </li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div> -->
+                            
 
-                            <!-- <div class="dropdown select-dropdown">
-                              <button>Brand <span class="notification">3</span> <i data-feather="chevron-down"></i></button>
-                              <div class="onhover-show-div size">
-                                <div class="filter-content">
-                                  <ul class="filter-check">
-                                    <li>
-                                      <label class="checkboxes style-1">
-                                        <input type="checkbox" checked="">
-                                        <span class="checkbox__checkmark"></span>
-                                        <span class="checkbox__body">Zera <span>18</span></span>
-                                      </label>
-                                    </li>
-                                    <li>
-                                      <label class="checkboxes style-1">
-                                        <input type="checkbox">
-                                        <span class="checkbox__checkmark"></span>
-                                        <span class="checkbox__body">Vera-Moda <span>12</span></span>
-                                      </label>
-                                    </li>
-                                    <li>
-                                      <label class="checkboxes style-1">
-                                        <input type="checkbox">
-                                        <span class="checkbox__checkmark"></span>
-                                        <span class="checkbox__body">Forever <span>12</span></span>
-                                      </label>
-                                    </li>
-                                    <li>
-                                      <label class="checkboxes style-1">
-                                        <input type="checkbox">
-                                        <span class="checkbox__checkmark"></span>
-                                        <span class="checkbox__body">Roadster <span>12</span></span>
-                                      </label>
-                                    </li>
-                                    <li>
-                                      <label class="checkboxes style-1">
-                                        <input type="checkbox">
-                                        <span class="checkbox__checkmark"></span>
-                                        <span class="checkbox__body">Only <span>22</span></span>
-                                      </label>
-                                    </li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div> -->
+                            
+                           
 
                             <div class="dropdown select-dropdown">
                               <button>Categories <span class="notification"></span> <i data-feather="chevron-down"></i></button>
@@ -243,7 +75,24 @@
                       </ul>
                     </div>
                   </div>
-
+                  <form action="/form" method="post">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-3">
+                          <div class="header-search-wrapper search-wrapper-wide">
+                            <label for="q" class="sr-only">Search</label>
+                            <div class="input-group">
+                              <input type="search" class="form-control" name="search" id="q" placeholder="Search product..." required>
+                              <button class="btn btn-primary" type="submit"><i class="icon-search"></i><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                              </svg></button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                <br><br>
                   
                   
                       
@@ -254,8 +103,8 @@
                     
                     <div class="view-option row g-3 g-xl-4 ratio_asos row-cols-2 row-cols-sm-3 row-cols-xl-4 grid-section">
                       
-                           <% if(products.length > 0){ %>
-                          <% products.forEach((product) => { %>
+                           <% if(productData.length > 0){ %>
+                          <% productData.forEach((product) => { %>
                       <div >
                    
                         <div class="product-card">
@@ -295,10 +144,15 @@
                           <!-- Content Box -->
                           <div class="content-box">
                             <a href="/product">
-                              <p>Chopard</p>
                               <h5><%= product.product_title %></h5>
-                              <span>₹ <%= product.product_price %></span> 
-                              <!-- <del>$140.00</del> -->
+
+                              <% if (product.offer) { %>
+                                <del class="text-danger"><p><strong><%= product.product_price %></strong></p></del>
+                                <p><strong>₹ <%= product.product_price - product.offer.offPrice %></strong></p>
+                              <% } else { %>
+                                <span><strong>₹ <%= product.product_price %></strong></span>
+                              <% } %>
+                              
                               <p class="details truncate-3">
                                 Wardrobe stylish fitted long sleeves pleats texture fabric mini neckline cobalt blue. Best seller signature waist cut pockets cotton-mix navy blue tailoring elegant
                                 cashmere.Tops shift shape rich fabric relaxed fitting size true black gold zip virgin wool.
@@ -314,20 +168,30 @@
                       <% })%>
                         <% } %>
                     </div>
+                    <br><br><br>
 
                     <!-- Pagination Start -->
-                    <div class="pagination-wrap justify-content-center">
-                      <ul class="pagination">
-                        <li>
-                          <a href="javascript:void(0)" class="prev"> &laquo;</a>
-                        </li>
-                        <li><a href="javascript:void(0)">1</a></li>
-                        <li><a href="javascript:void(0)" class="active">2</a></li>
-                        <li><a href="javascript:void(0)">3</a></li>
-                        <li><a href="javascript:void(0)" class="next"> &raquo;</a></li>
+                    <div class="ec-pro-pagination ">
+                                
+                      <ul class="pagination justify-content-center">
+                          <li class="page-item <%= currentPage === 1 ? 'disabled' : '' %>">
+                              <a class="prev" href="?page=<%= currentPage - 1 %>" aria-label="Previous" tabindex="-1" aria-disabled="true">
+                                  <span aria-hidden="true"><i class="icon-long-arrow-left"></i></span>Prev
+                              </a>
+                          </li>
+                          <% for (let i = 1; i <= totalPages; i++) { %>
+                      <li class="page-item <%= currentPage === i ? 'active' : '' %> ms-2" aria-current="page">
+                          <a class="page-link" href="?page=<%= i %>"><%= i %></a>
+                      </li>
+                         <% } %>
+                         <li class="page-item <%= currentPage === totalPages ? 'disabled' : '' %>">
+                      <a class="next" href="?page=<%= currentPage + 1 %>" aria-label="Next">
+                          Next <span aria-hidden="true"><i class="icon-long-arrow-right"></i></span>
+                      </a>
+                     </li>
+
                       </ul>
-                      <!-- Pagination End -->
-                    </div>
+                  </div>
                   </div>
               
                 </div>
